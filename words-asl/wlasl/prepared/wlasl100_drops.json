@@ -1,0 +1,502 @@
+{
+  "a": {
+    "requested": 8,
+    "missing": 4,
+    "kept": 4
+  },
+  "a lot": {
+    "requested": 8,
+    "missing": 1,
+    "kept": 7
+  },
+  "abdomen": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "able": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "about": {
+    "requested": 15,
+    "missing": 8,
+    "kept": 7
+  },
+  "above": {
+    "requested": 9,
+    "missing": 4,
+    "kept": 5
+  },
+  "accent": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "accept": {
+    "requested": 12,
+    "missing": 4,
+    "kept": 8
+  },
+  "accident": {
+    "requested": 19,
+    "missing": 6,
+    "kept": 13
+  },
+  "accomplish": {
+    "requested": 9,
+    "missing": 4,
+    "kept": 5
+  },
+  "accountant": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "across": {
+    "requested": 10,
+    "missing": 4,
+    "kept": 6
+  },
+  "act": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "action": {
+    "requested": 8,
+    "missing": 2,
+    "kept": 6
+  },
+  "active": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "activity": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "actor": {
+    "requested": 10,
+    "missing": 4,
+    "kept": 6
+  },
+  "adapt": {
+    "requested": 7,
+    "missing": 1,
+    "kept": 6
+  },
+  "add": {
+    "requested": 11,
+    "missing": 2,
+    "kept": 9
+  },
+  "address": {
+    "requested": 8,
+    "missing": 4,
+    "kept": 4
+  },
+  "adjective": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "adjust": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "admire": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "admit": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "adopt": {
+    "requested": 9,
+    "missing": 3,
+    "kept": 6
+  },
+  "adult": {
+    "requested": 12,
+    "missing": 5,
+    "kept": 7
+  },
+  "advanced": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "advantage": {
+    "requested": 9,
+    "missing": 5,
+    "kept": 4
+  },
+  "adverb": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "affect": {
+    "requested": 8,
+    "missing": 2,
+    "kept": 6
+  },
+  "afraid": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "africa": {
+    "requested": 18,
+    "missing": 9,
+    "kept": 9
+  },
+  "after": {
+    "requested": 12,
+    "missing": 5,
+    "kept": 7
+  },
+  "afternoon": {
+    "requested": 13,
+    "missing": 6,
+    "kept": 7
+  },
+  "again": {
+    "requested": 16,
+    "missing": 8,
+    "kept": 8
+  },
+  "against": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "age": {
+    "requested": 13,
+    "missing": 6,
+    "kept": 7
+  },
+  "agenda": {
+    "requested": 8,
+    "missing": 4,
+    "kept": 4
+  },
+  "ago": {
+    "requested": 12,
+    "missing": 3,
+    "kept": 9
+  },
+  "agree": {
+    "requested": 10,
+    "missing": 5,
+    "kept": 5
+  },
+  "agreement": {
+    "requested": 7,
+    "missing": 1,
+    "kept": 6
+  },
+  "ahead": {
+    "requested": 8,
+    "missing": 4,
+    "kept": 4
+  },
+  "aid": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "aim": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "airplane": {
+    "requested": 11,
+    "missing": 4,
+    "kept": 7
+  },
+  "alarm": {
+    "requested": 10,
+    "missing": 5,
+    "kept": 5
+  },
+  "alcohol": {
+    "requested": 8,
+    "missing": 4,
+    "kept": 4
+  },
+  "algebra": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "all": {
+    "requested": 21,
+    "missing": 13,
+    "kept": 8
+  },
+  "all day": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "allergy": {
+    "requested": 10,
+    "missing": 2,
+    "kept": 8
+  },
+  "alligator": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "allow": {
+    "requested": 12,
+    "missing": 4,
+    "kept": 8
+  },
+  "almost": {
+    "requested": 10,
+    "missing": 5,
+    "kept": 5
+  },
+  "alone": {
+    "requested": 13,
+    "missing": 4,
+    "kept": 9
+  },
+  "alphabet": {
+    "requested": 9,
+    "missing": 5,
+    "kept": 4
+  },
+  "already": {
+    "requested": 11,
+    "missing": 3,
+    "kept": 8
+  },
+  "also": {
+    "requested": 11,
+    "missing": 4,
+    "kept": 7
+  },
+  "always": {
+    "requested": 14,
+    "missing": 7,
+    "kept": 7
+  },
+  "amazing": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "america": {
+    "requested": 12,
+    "missing": 6,
+    "kept": 6
+  },
+  "amputate": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "analyze": {
+    "requested": 11,
+    "missing": 3,
+    "kept": 8
+  },
+  "anatomy": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "and": {
+    "requested": 11,
+    "missing": 6,
+    "kept": 5
+  },
+  "angel": {
+    "requested": 12,
+    "missing": 5,
+    "kept": 7
+  },
+  "angle": {
+    "requested": 8,
+    "missing": 2,
+    "kept": 6
+  },
+  "angry": {
+    "requested": 11,
+    "missing": 4,
+    "kept": 7
+  },
+  "animal": {
+    "requested": 14,
+    "missing": 5,
+    "kept": 9
+  },
+  "anniversary": {
+    "requested": 9,
+    "missing": 4,
+    "kept": 5
+  },
+  "announce": {
+    "requested": 10,
+    "missing": 5,
+    "kept": 5
+  },
+  "annoy": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "another": {
+    "requested": 9,
+    "missing": 4,
+    "kept": 5
+  },
+  "answer": {
+    "requested": 12,
+    "missing": 5,
+    "kept": 7
+  },
+  "any": {
+    "requested": 12,
+    "missing": 7,
+    "kept": 5
+  },
+  "anyway": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "apart": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "apartment": {
+    "requested": 10,
+    "missing": 4,
+    "kept": 6
+  },
+  "apostrophe": {
+    "requested": 8,
+    "missing": 2,
+    "kept": 6
+  },
+  "appear": {
+    "requested": 11,
+    "missing": 4,
+    "kept": 7
+  },
+  "appetite": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "apple": {
+    "requested": 19,
+    "missing": 8,
+    "kept": 11
+  },
+  "appointment": {
+    "requested": 13,
+    "missing": 3,
+    "kept": 10
+  },
+  "appreciate": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "approach": {
+    "requested": 7,
+    "missing": 2,
+    "kept": 5
+  },
+  "appropriate": {
+    "requested": 9,
+    "missing": 4,
+    "kept": 5
+  },
+  "approve": {
+    "requested": 15,
+    "missing": 7,
+    "kept": 8
+  },
+  "april": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "archery": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "area": {
+    "requested": 12,
+    "missing": 5,
+    "kept": 7
+  },
+  "argue": {
+    "requested": 14,
+    "missing": 4,
+    "kept": 10
+  },
+  "arizona": {
+    "requested": 7,
+    "missing": 3,
+    "kept": 4
+  },
+  "arm": {
+    "requested": 11,
+    "missing": 4,
+    "kept": 7
+  },
+  "army": {
+    "requested": 11,
+    "missing": 6,
+    "kept": 5
+  },
+  "around": {
+    "requested": 8,
+    "missing": 3,
+    "kept": 5
+  },
+  "arrest": {
+    "requested": 11,
+    "missing": 5,
+    "kept": 6
+  },
+  "arrive": {
+    "requested": 15,
+    "missing": 7,
+    "kept": 8
+  },
+  "arrogant": {
+    "requested": 9,
+    "missing": 3,
+    "kept": 6
+  },
+  "art": {
+    "requested": 12,
+    "missing": 5,
+    "kept": 7
+  },
+  "article": {
+    "requested": 8,
+    "missing": 4,
+    "kept": 4
+  }
+}

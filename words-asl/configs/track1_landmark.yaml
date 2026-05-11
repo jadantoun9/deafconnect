@@ -1,0 +1,61 @@
+# Track 1 — landmark-based classifier on WLASL-100.
+#
+# Consumed by train.py (and eval.py with --config).
+# Schema is fixed by load_config + build_components in train.py — do not
+# add keys without checking the trainer reads them.
+
+track: track1
+dataset_name: wlasl100
+
+dataset:
+  name: landmark
+  train_args:
+    manifest_path: wlasl/prepared/wlasl100_train.json
+    landmarks_root: landmarks_cache
+    num_frames: 32
+    sampling: random
+    normalise: true
+    seed: 0
+  val_args:
+    manifest_path: wlasl/prepared/wlasl100_val.json
+    landmarks_root: landmarks_cache
+    num_frames: 32
+    sampling: uniform
+    normalise: true
+    seed: 0
+
+model:
+  name: landmark_classifier
+  args:
+    num_classes: 100
+    num_keypoints: 75
+    coord_dims: 3
+    d_model: 128
+    nhead: 4
+    num_layers: 2
+    dim_feedforward: 256
+    dropout: 0.1
+    max_frames: 64
+    pool: mean
+
+training:
+  # "auto" -> mps on Apple Silicon laptops, cuda on a GPU box, cpu otherwise.
+  # See _resolve_device in train.py.
+  device: auto
+  seed: 0
+  epochs: 80
+  batch_size: 32
+  num_workers: 4
+  lr: 3.0e-4
+  weight_decay: 1.0e-4
+  warmup_epochs: 4
+  grad_clip: 1.0
+  amp: true                       # only takes effect on CUDA
+  out_dir: checkpoints
+
+logging:
+  project: ml-final-signreader
+  tags: [track1, wlasl100, transformer]
+
+distillation:
+  enabled: false

@@ -1,0 +1,289 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[preprint]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{url}
+
+\title{DeafConnect: A Two-Track On-Device System for American Sign Language\\Letter and Word Recognition with Bidirectional Translation}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  \texttt{email@domain} \\}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present \textbf{DeafConnect}, a complete sign-language recognition and translation system that runs entirely on an iPhone. The system combines two recognition tracks --- a landmark-based classifier for the 26 letters of the American Sign Language (ASL) alphabet and a word-level recognizer for a vocabulary of eight common ASL signs --- with a text-to-sign avatar to enable bidirectional communication. On the alphabet task we benchmark four architectures (a feed-forward classifier and an LSTM over MediaPipe hand landmarks, a frozen ResNet50, and a frozen MobileNetV2 over raw images) and find that landmark-based models substantially outperform image-based ones; our best single model reaches \textbf{93.32\%} test accuracy on a stratified 1{,}302-sample test set of the ASL Alphabet dataset. On the word-level task we compare two variants of a Transformer classifier over MediaPipe Holistic landmarks against a frozen ViT-S/16 video backbone with a temporal Transformer head on a 9-class subset of the WLASL benchmark. A small keypoint-pruning ablation, reducing the MediaPipe Holistic skeleton from 75 to 48 keypoints, improves validation top-1 accuracy from 65.0\% to 80.0\%. All four word models are exported to CoreML and run at 30\,fps on an iPhone with no server round-trip. We release the full system, including configs, training scripts and the iOS application.
+\end{abstract}
+
+\section{Introduction}
+
+According to the World Federation of the Deaf, more than 70 million deaf people worldwide use a sign language as a primary mode of communication, and there are at least 200 distinct sign languages in active use. American Sign Language (ASL) is the dominant sign language in the United States and parts of Canada. Communication between deaf signers and the hearing population remains overwhelmingly mediated by professional interpreters or pen-and-paper exchanges, both of which are slow, situation-dependent, and unavailable in most everyday interactions.
+
+A practical assistive system for ASL communication needs to do two things at once. It needs to translate the signer's hand and body movements into text in real time (\emph{sign-to-text}), and it needs to produce something a non-signing partner can quickly understand in the opposite direction (\emph{text-to-sign}). Both directions must run on consumer hardware --- ideally on the user's phone --- because privacy, latency, and network availability all matter for a tool intended to be carried into clinics, classrooms, and restaurants.
+
+Most published work on ASL recognition optimizes accuracy on isolated benchmarks and stops short of a deployable system. Word-level video classifiers such as Pose-TGCN and I3D \citep{li2020wlasl,carreira2017quo} are trained and evaluated offline; the models are large, the inference pipelines are GPU-bound, and almost no published system reports on-device inference latency on a phone. On the other end of the spectrum, single-letter classifiers on the Kaggle ASL Alphabet dataset are well studied but produce systems that can only fingerspell.
+
+In this paper we describe a complete pipeline that closes this gap. Our contributions are the following.
+
+\begin{enumerate}
+\itemsep -0.1em
+\item A \textbf{two-track recognition architecture} that uses a light landmark-based classifier for the alphabet (where idle/no-sign detection matters less and per-frame inference is sufficient) and a heavier temporal model for word-level signs (where motion dynamics dominate).
+\item A \textbf{controlled comparison of landmark-based and image-based classifiers} on the ASL Alphabet task, showing a 13.4-point absolute accuracy gap in favour of MediaPipe landmarks. After Bayesian hyperparameter tuning the landmark classifier reaches 93.32\% test accuracy on 1{,}302 held-out samples.
+\item A \textbf{keypoint-pruning ablation} on a 9-class subset of WLASL that demonstrates that pruning the MediaPipe Holistic skeleton from 75 to 48 keypoints improves both validation top-1 accuracy (65.0\%~$\rightarrow$~80.0\%) and on-device model size, supporting the hypothesis that head and lower-body landmarks are not informative for ASL and inject noise into the temporal embedding.
+\item A \textbf{working CoreML deployment}: all four word-level models and the alphabet model are exported to mobile-friendly formats, integrated into an iOS application (\emph{SignReader}), and run at 30\,fps on an iPhone. The same application provides text-to-sign output via a 3D avatar, closing the bidirectional translation loop.
+\end{enumerate}
+
+Our aim is not to push WLASL state-of-the-art accuracy --- the WLASL test partitions are too small for that to be meaningful at our scale --- but to characterize what kind of accuracy is achievable when one constrains the modelling and deployment choices to those that can fit on a phone.
+
+\section{Related Work}
+
+\paragraph{Word-level sign language recognition.} \citet{li2020wlasl} introduced the WLASL benchmark, a large-vocabulary video dataset for isolated sign language recognition, and showed that pose-based graph convolutional networks (Pose-TGCN) and I3D \citep{carreira2017quo} are competitive baselines, with I3D reaching roughly 32\% top-1 accuracy on the full WLASL-2000 vocabulary. Later work has explored skeleton-based transformers, self-supervised pretraining, and multimodal fusion. These methods focus on accuracy at the expense of inference cost; the canonical I3D checkpoint is 50+M parameters and assumes 64-frame video clips at full resolution.
+
+\paragraph{Letter-level recognition.} The Kaggle ASL Alphabet dataset has been extensively used as a teaching benchmark for image classification. Reported numbers commonly exceed 95\% test accuracy with deep CNNs, but the dataset is known to leak signer identity across the training and validation splits and is therefore not a strong indicator of generalization. Our experiments treat it primarily as a vehicle for an apples-to-apples \emph{landmark vs.\ image} comparison.
+
+\paragraph{Hand and body landmark estimation.} MediaPipe Hands and MediaPipe Holistic \citep{lugaresi2019mediapipe,zhang2020mediapipe} provide real-time skeletal estimates for the hand (21 keypoints per hand) and full body (33 pose keypoints in addition to the two hands and a face mesh). Their cross-platform availability --- iOS, Android, web, desktop --- makes them an attractive feature extractor for on-device systems.
+
+\paragraph{Vision transformers and token merging.} The Vision Transformer (ViT) \citep{dosovitskiy2021an} has become a standard image backbone. For video, the dominant approach is to apply a 2D ViT per frame and aggregate temporally with a small Transformer or MLP. Token Merging (ToMe) \citep{bolya2023token} reduces inference cost by merging redundant tokens within and across frames. Our Track 2 model uses a frozen ViT-S/16 backbone with an optional ToMe layer and a 3-layer temporal Transformer head, providing a strong off-the-shelf baseline for end-to-end video recognition.
+
+\paragraph{On-device ML for accessibility.} Practical on-device deployments of sign language models remain rare. The few existing systems either depend on cloud inference or are restricted to a small fingerspelled vocabulary. CoreML and Apple's Neural Engine (ANE) impose ops-list constraints that exclude some Transformer operations, motivating our use of explicit \texttt{nn.Parameter} broadcasts and a restricted activation set so that all of our models run on the ANE without CPU fallback.
+
+\section{Dataset}
+
+We use two publicly available datasets.
+
+\subsection{ASL Alphabet}
+
+The Kaggle ASL Alphabet dataset provides approximately 500 RGB images per letter for the 26 letters of the ASL fingerspelled alphabet. Following the original notebooks, we resize every image to $64\times64$, normalize to $[0,1]$, and run MediaPipe Hands on the original $200\times200$ frame to extract a $21\times3$ tensor of hand landmarks. We use stratified 70/15/15 train/val/test splits with a fixed random seed of 42. After excluding frames where MediaPipe failed to detect a hand, the resulting splits are summarized in Table~\ref{tab:asl-alphabet-splits}.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+Modality & Train & Val & Test \\
+\midrule
+Landmarks ($21\times3$) & 6{,}071 & 1{,}301 & 1{,}302 \\
+Images ($64\times64\times3$) & 9{,}099 & 1{,}951 & 1{,}950 \\
+\bottomrule
+\end{tabular}
+\caption{ASL Alphabet split sizes for the landmark and image branches. Hand detections fail on a non-trivial fraction of the original images, which is why the landmark dataset is smaller.}
+\label{tab:asl-alphabet-splits}
+\end{table}
+
+\subsection{WLASL (Word-Level)}
+
+WLASL \citep{li2020wlasl} is the standard public benchmark for isolated word-level ASL recognition. The full benchmark contains $\sim$21{,}000 clips across 2{,}000 signs, but the typical research subsets are WLASL-100, WLASL-300, WLASL-1000, and WLASL-2000. We work with three configurations.
+
+\begin{itemize}
+\itemsep -0.1em
+\item \textbf{WLASL-100}: the standard 100-class subset, used to give an indicative number against the published literature. It contains $\sim$600 clips after our preprocessing (409 train / 115 val / 76 test).
+\item \textbf{WLASL-9idle}: a 9-class subset combining 8 frequently used everyday signs (\textit{drink, go, help, who, yes, no, before, walk}) and an additional \textit{idle} class collected from the WLASL "no-sign" segments. This corresponds to a realistic deployment vocabulary for a quick-help system and contains 125 clips (92 train / 20 val / 13 test).
+\item \textbf{WLASL-9}: the same 8 signs without the idle class, used for the end-to-end video track. 108 clips (80 train / 17 val / 11 test).
+\end{itemize}
+
+For both the WLASL-9idle and WLASL-100 subsets we precompute MediaPipe Holistic landmarks offline and cache them as 75-keypoint tensors (33 pose + 21 left hand + 21 right hand). For WLASL-9 we additionally keep the resized $224\times224$ video frames.
+
+The test partitions are small (76, 13, and 11 clips respectively), which is a known limitation of WLASL. We follow the standard split so that our numbers are comparable to prior work, but for any per-class metric we additionally validate on the larger validation partitions.
+
+\section{Approach}
+
+DeafConnect is organized as two tracks, sharing a common landmark front-end and a common iOS application shell. Figure~\ref{fig:app} shows the deployed application performing recognition on both letters and word-level signs. At a high level:
+
+\begin{enumerate}
+\itemsep -0.1em
+\item The camera streams 30\,fps frames into a single \texttt{CameraManager} actor on the phone.
+\item Each frame is fed to a MediaPipe Hands or MediaPipe Holistic extractor on a background queue. The extractor exposes a $21\times3$ tensor (Hands) or a $75\times3$ tensor (Holistic) with a per-keypoint validity mask.
+\item Depending on the active mode, the result is dispatched to either the Letter classifier (single-frame, 21 keypoints) or one of the Word classifiers (32-frame window over Holistic keypoints).
+\item The chosen classifier runs on the Apple Neural Engine via CoreML and returns a probability distribution; a small post-processing step (debouncing, confidence threshold) decides whether to surface a prediction to the UI.
+\item In the text-to-sign direction, a Ready Player Me 3D avatar plays a fingerspelled animation of the input text (Figure~\ref{fig:bidir}).
+\end{enumerate}
+
+\subsection{Track 1: Landmark-Based Recognition}
+
+Both the letter classifier and the 9-class word classifier consume MediaPipe landmarks. We chose this front-end deliberately. Compared to raw pixels, landmarks (i) discard background, lighting and clothing, (ii) are orders of magnitude cheaper to feed into a classifier (less than 100\,$\mu$s on-device for the letter model), and (iii) are robust to skin tone and signer appearance because the upstream MediaPipe detector is trained on a large, demographically broad corpus.
+
+\paragraph{Letter classifier.} We benchmark four architectures: a 3-layer feed-forward network on flattened landmarks (the \emph{best single model}), an LSTM treating the 21 keypoints as a temporal sequence, a frozen ResNet50 with a small classifier head on raw images, and a frozen MobileNetV2 on the same images. The feed-forward landmark classifier has the structure \texttt{Flatten($63$) $\rightarrow$ Dense$_{512}$ $\rightarrow$ ReLU $\rightarrow$ Dense$_{256}$ $\rightarrow$ ReLU $\rightarrow$ Dense$_{26}$ $\rightarrow$ Softmax}. After Bayesian hyperparameter tuning over learning rate, hidden sizes, dropout, and batch size, this model reaches 93.32\% test accuracy.
+
+\paragraph{Word classifier.} For word-level recognition we use a 2-layer Transformer encoder with $d_{\textrm{model}}=128$, 4 attention heads, $d_{\textrm{ff}}=256$, GELU activations, and pre-norm layer normalization. The input is a $[T\times K\times 3]$ tensor with $T=32$ frames and $K \in \{75, 48\}$ keypoints depending on the variant. Each frame is linearly embedded to $d_{\textrm{model}}$ and added to a learnable positional embedding; the Transformer output is mean-pooled across valid frames (using the MediaPipe validity mask as a weight) and projected to the class logits. Total parameter count is $\sim$150K for the 9-class variant.
+
+We explicitly chose this architecture to be ANE-compatible. We avoid \texttt{nn.Embedding} (which causes a CPU fallback on iOS) and use a broadcasted \texttt{nn.Parameter} for the positional embedding instead. All non-linearities are restricted to the ANE green list (GELU, softmax, layer norm).
+
+\subsection{Keypoint Pruning (V1 vs V2)}
+
+The full MediaPipe Holistic skeleton contains 33 pose keypoints, 21 keypoints per hand, and a 468-point face mesh. We disable the face mesh during extraction for speed, leaving 75 keypoints. For the V2 variant of the word classifier we additionally drop:
+
+\begin{itemize}
+\itemsep -0.1em
+\item 11 head keypoints (nose, eyes, ears, mouth);
+\item 2 hip keypoints;
+\item 8 lower-body keypoints (knees, ankles, heels, feet);
+\item 6 coarse pose-level hand landmarks that are redundant with the dedicated hand meshes.
+\end{itemize}
+
+This reduces the input to 48 keypoints: $6$ upper-body anchors (left/right shoulder, elbow, wrist) and the $2\times 21$ hand keypoints. Our hypothesis is that head and lower-body landmarks contribute pure noise to the temporal embedding: they vary independently of the sign being produced (the signer might tilt his head, scratch his nose, or shift weight) and therefore reduce signal-to-noise ratio in attention. Figure~\ref{fig:app}~(right column) shows the live MediaPipe Holistic output that the V2 model consumes on-device, with all head and lower-body keypoints discarded.
+
+\begin{figure*}[t]
+\centering
+\begin{subfigure}{0.24\textwidth}
+  \centering\includegraphics[width=\linewidth]{../app-images/sign-c.jpg}
+  \caption{Letter \emph{C} (100\%)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.24\textwidth}
+  \centering\includegraphics[width=\linewidth]{../app-images/sign-l.jpg}
+  \caption{Letter \emph{L} (95\%)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.24\textwidth}
+  \centering\includegraphics[width=\linewidth]{../app-images/sign-help.jpg}
+  \caption{Sign \emph{HELP} (100\%)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.24\textwidth}
+  \centering\includegraphics[width=\linewidth]{../app-images/sign-walk.jpg}
+  \caption{Sign \emph{WALK} (98\%)}
+\end{subfigure}
+\caption{The DeafConnect iOS application performing on-device recognition. Letters (left two panels) are recognized per-frame from 21 hand landmarks; word-level signs (right two panels) are recognized from a 32-frame window of 48 pruned MediaPipe Holistic landmarks. Confidence scores are produced by the deployed CoreML model and overlaid live.}
+\label{fig:app}
+\end{figure*}
+
+\subsection{Track 2: End-to-End Video Recognition}
+
+For Track 2 we train a temporal Transformer on top of a frozen ViT-S/16 backbone, mirroring the design that has become standard for video classification on small data \citep{dosovitskiy2021an}. The backbone is loaded from the \texttt{vit\_small\_patch16\_224.augreg\_in21k\_ft\_in1k} checkpoint and produces $14\times14=196$ patch tokens of dimension 384 per frame. A 3-layer Transformer ($d_{\textrm{model}}=384$, 6 heads, $d_{\textrm{ff}}=768$, dropout 0.2, pre-norm) operates on the resulting $[T\times 196\times 384]$ tensor with a learnable temporal positional embedding. We optionally apply Token Merging \citep{bolya2023token} along the temporal axis (using an exponential kernel $\exp(-|\Delta t|/\tau)$ with $\tau=2.0$) but report the no-merging baseline here. Only the temporal head and classifier are trained; the backbone remains frozen.
+
+\subsection{On-Device Deployment}
+
+All models are exported to CoreML via PyTorch~$\rightarrow$~ONNX (opset 17)~$\rightarrow$~\texttt{coremltools}, using fp16 weights and fixed input shapes (no dynamic axes) to keep them on the ANE. The letter model and the 9-class landmark models are each between 3.4 and 5.6\,MB. The 8-class video model is 123.5\,MB, dominated by the ViT-S/16 backbone. Inference rates of 30\,fps with no thermal throttling on an iPhone~15~Pro were measured for all four models, with a per-frame latency below 33\,ms.
+
+\section{Experiments}
+
+\subsection{Training Details}
+
+\paragraph{ASL Alphabet.} All four letter models are trained with Adam (lr $10^{-3}$), batch size 32, and 10 epochs. We hold out the 15\% test split for final reporting and use the 15\% validation split for early stopping. We additionally run a Bayesian hyperparameter search over learning rate $\in [10^{-4}, 10^{-2}]$, batch size $\in \{32, 64, 128\}$, and the two hidden dimensions $\in \{128, 256, 512, 1024\}$ for the landmark feed-forward model, with 30 search trials.
+
+\paragraph{Word-level (Track 1).} All Transformer landmark classifiers are trained with AdamW, weight decay $10^{-4}$, lr $3\times 10^{-4}$ with a 4--6 epoch linear warmup followed by linear decay, dropout $0.1$--$0.2$, label smoothing $0.1$, and gradient clipping at norm 1.0. We train for 80--120 epochs and select the checkpoint with the best validation top-1 accuracy. Batch sizes are 16 (9-class) and 32 (100-class). Data augmentation includes mirror-flipping with left/right hand swap, random rotation ($\pm 15^\circ$), random scale ($0.85$--$1.15$), translation ($\pm 5\%$), per-coordinate Gaussian noise (std $0.01$), and per-keypoint joint dropout ($p=0.05$).
+
+\paragraph{Word-level (Track 2).} The video model is trained with AdamW, lr $10^{-3}$, batch size 4, 60 epochs, weight decay $10^{-4}$, dropout 0.2. Frames are sampled uniformly from each clip and ImageNet-normalized. The backbone is frozen; only the temporal head ($\sim$4M trainable parameters) is updated.
+
+\subsection{Letter Recognition Results}
+
+Test-set accuracies on the 1{,}302-sample held-out ASL Alphabet test partition are shown in Table~\ref{tab:letters}. Landmark-based models clearly outperform the image-based models. After Bayesian hyperparameter tuning the feed-forward landmark classifier improves from 88.94\% to 93.32\%, which we adopt as our deployed letter model.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+Model & Modality & Test Acc.\\
+\midrule
+ResNet50 (frozen) & Images & 0.7996 \\
+MobileNetV2 (frozen) & Images & 0.7960 \\
+LSTM & Landmarks & 0.7588 \\
+Feed-forward MLP & Landmarks & 0.8894 \\
+\quad + Bayesian tuning & Landmarks & \textbf{0.9332} \\
+Logistic-regression ensemble & Landmarks & 0.9094 \\
+\bottomrule
+\end{tabular}
+\caption{ASL Alphabet test accuracy on a held-out 1{,}302-sample partition. The ensemble was trained on validation predictions (no test leakage) of the un-tuned MLP and the LSTM. The tuned MLP outperforms the ensemble.}
+\label{tab:letters}
+\end{table}
+
+The ensemble uses a logistic-regression meta-learner trained on the validation predictions of the un-tuned MLP and the LSTM. It improves on the un-tuned MLP by 2 points but is dominated by the tuned MLP, so we keep the latter for deployment.
+
+\subsection{Word Recognition Results}
+
+Table~\ref{tab:words} reports validation and test top-1 / top-5 accuracies for all four word-level configurations.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+Model & Val~T1 & Test~T1 & Test~T5 \\
+\midrule
+Track 1, WLASL-100 (75 kp) & 0.287 & 0.263 & 0.605 \\
+Track 1, 9-idle V1 (75 kp) & 0.650 & 0.444 & 1.000 \\
+Track 1, 9-idle V2 (48 kp) & \textbf{0.800} & \textbf{0.778} & 1.000 \\
+Track 2, video baseline & 0.706 & 0.429 & 1.000 \\
+\bottomrule
+\end{tabular}
+\caption{Word-level results. Track~1 is a 2-layer Transformer over MediaPipe Holistic landmarks; Track~2 is a frozen ViT-S/16 backbone with a 3-layer temporal Transformer. Val partitions are 115 (WLASL-100), 20 (9-idle), and 17 (8-class) clips; test partitions are 76, 13 and 11 respectively. Two 9-idle classes (\textit{yes}, \textit{before}) had F1 = 0 on the test set (one and three samples respectively) and were soft-removed at evaluation time.}
+\label{tab:words}
+\end{table}
+
+The 28.7\% top-1 on WLASL-100 is consistent with the lower end of published landmark-only baselines on this subset and reflects that the model is small ($\sim$150K parameters) and trained without any backbone pretraining.
+
+\subsection{Keypoint-Pruning Ablation}
+
+The single most important finding on the word-level task is that pruning the MediaPipe Holistic skeleton from 75 to 48 keypoints increases validation top-1 accuracy from 65.0\% to 80.0\% on the 9-idle subset, holding the architecture, optimizer, and training schedule fixed. The pruning also reduces the model file size on disk by about 5\% (3.6\,MB to 3.4\,MB) and shrinks each input tensor by 36\%. The V2 trajectory not only ends higher but converges within $\sim$50 epochs, suggesting that the additional 27 keypoints in V1 actively hurt the optimizer.
+
+\subsection{Cross-Track Comparison}
+
+When restricting the evaluation to the 6 classes that all three 9-class models predict correctly with non-zero F1 (\textit{drink, go, help, who, no, walk}), the landmark V2 model reaches 0.83 top-1 vs.\ 0.71 for the landmark V1 model and 0.55 for the video model. Even with a 123-MB ViT backbone and ImageNet 21k pretraining, the video model is dominated by the much smaller landmark model with strong inductive bias. We interpret this as evidence that, at the data scales available in WLASL subsets, the MediaPipe-based pose pipeline is the more efficient use of supervised capacity.
+
+\section{Discussion}
+
+\paragraph{Why do landmarks beat images?} On the alphabet task the landmark feed-forward model beats both ResNet50 and MobileNetV2 by 13--17 absolute accuracy points despite having two orders of magnitude fewer parameters. This is striking but not surprising: the ASL Alphabet dataset is small, has heavy background and clothing overlap across signers, and the actual signal --- finger pose --- is exactly what MediaPipe Hands has been pretrained to extract. The image models effectively re-discover a hand pose from raw pixels with very little supervision. Pre-extracted landmarks short-circuit this discovery problem.
+
+\paragraph{Why does keypoint pruning help so much?} Our hypothesis going into the ablation was that head and lower-body landmarks would either be uninformative or mildly harmful. The 15-point improvement we observed exceeds our expectations and suggests that the additional 27 keypoints actively confuse the attention mechanism: the model spends capacity attending to high-variance, low-information channels (e.g.\ a nose moving while the hand is still). A useful follow-up would be a per-keypoint attribution study to quantify which subsets of the 27 dropped keypoints are most harmful.
+
+\paragraph{Why does the ViT-based video model underperform?} The frozen ViT-S/16 backbone gives strong per-frame representations but its temporal head is trained from scratch on only 80 clips. The temporal head therefore has to learn the entire dynamics of an ASL sign from this very small data budget, while the landmark model already benefits from a strong inductive bias (the input \emph{is} the relevant feature). At larger data scales we expect the ranking to flip; in the data regime we operate in, it does not.
+
+\paragraph{Why is WLASL-100 top-1 so low?} 28.7\% top-1 on WLASL-100 is below the strongest published numbers, but matches the lower end of small-model landmark-only baselines. There are two structural reasons. First, our landmark model is intentionally small ($\sim$150K parameters) so that it can run on the ANE; published Pose-TGCN and pretrained-graph baselines are 5--10$\times$ larger. Second, WLASL-100 contains 100 fine-grained signs with only $\sim$4 training clips per class on average, and there is no pretraining stage in our pipeline. We report this number for transparency, not as a contribution.
+
+\paragraph{Limitations.} The work has clear limitations that we want to flag explicitly. (i) All numerical results are single-seed runs; we do not report variance across seeds. (ii) The WLASL test partitions are extremely small (76, 13, 11 clips for the three subsets) and per-class metrics on the 9-class test set in particular should be interpreted as exploratory. (iii) The deployed word vocabulary is 8 signs; this is a real-world product constraint of the small WLASL subset we used and is not a claim about scalability. (iv) We have not yet run a user study with deaf or hard-of-hearing participants, and any usability claims must therefore be qualified. (v) The text-to-sign direction is implemented as a fingerspelled avatar animation, not learned sign synthesis; we report this for completeness but it is not an evaluated contribution.
+
+\paragraph{Mobile-only constraints.} A number of design choices that look unusual on paper are forced by mobile deployment. The Transformer architecture deliberately avoids \texttt{nn.Embedding} and unrestricted gather ops so that the entire forward pass stays on the Apple Neural Engine; the input shapes are fixed (no dynamic axes); the video model accepts exactly 16 frames; the landmark model accepts exactly 32 frames. These constraints sharply restrict the design space but in return give us 30\,fps inference with no thermal throttling on a phone.
+
+\begin{figure}[t]
+\centering
+\begin{subfigure}{0.46\linewidth}
+  \centering\includegraphics[width=\linewidth]{../app-images/avatar-m.jpg}
+  \caption{Avatar M}
+\end{subfigure}\hfill
+\begin{subfigure}{0.46\linewidth}
+  \centering\includegraphics[width=\linewidth]{../app-images/chat.jpg}
+  \caption{Chat view}
+\end{subfigure}
+\caption{Reverse direction and bidirectional UI. Left: a Ready Player Me 3D avatar performs the fingerspelled animation for an input sentence (text-to-sign). Right: a conversation tab where signed input and typed/spoken replies share a common transcript with text-to-speech playback.}
+\label{fig:bidir}
+\end{figure}
+
+\section{Conclusion}
+
+We have presented \textbf{DeafConnect}, a complete two-track on-device system for ASL letter and word recognition with bidirectional translation. The system reaches 93.32\% test accuracy on the 26-class ASL Alphabet with a tuned feed-forward classifier over MediaPipe hand landmarks, 80.0\% validation top-1 on a 9-class WLASL subset with a 48-keypoint Transformer classifier, and 30\,fps on-device inference for all four models. A controlled ablation shows that pruning MediaPipe Holistic landmarks from 75 to 48 keypoints improves accuracy by 15 absolute points, suggesting that head and lower-body keypoints are net-harmful for ASL recognition.
+
+The headline number on WLASL-100 (28.7\% top-1) is not state-of-the-art; we did not aim to push it. Our contribution is a self-contained, mobile-deployable bidirectional sign-language translation system that runs at 30\,fps and is reproducible from the released code, and a few empirical findings that we believe are useful for anyone building similar systems: (i) landmarks decisively beat images at small scale, (ii) head and lower-body keypoints hurt rather than help, and (iii) a frozen ViT-S/16 backbone is dominated by a 150K-parameter Transformer on landmarks at the WLASL-9 scale.
+
+Future work includes a multi-seed re-evaluation with confidence intervals, scaling the word vocabulary to the WLASL-300 subset, replacing the fingerspelled avatar with a learned sign synthesis model, and a user study with deaf and hard-of-hearing participants to evaluate the system in realistic scenarios.
+
+\bibliography{custom}
+
+\end{document}

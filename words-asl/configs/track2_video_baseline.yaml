@@ -1,0 +1,67 @@
+# Track 2 — End-to-end video transformer baseline (no ToMe).
+#
+# 8 sign classes (drink go help who yes no before walk). "idle" is handled at
+# demo-time via the motion gate; the video model itself does not have an idle
+# class because we have no pixel-level idle data.
+#
+# Backbone: frozen ViT-S/16 (ImageNet 21k -> 1k supervised).
+# Trainable: temporal positional embedding + 3-layer temporal Transformer +
+# linear classifier (~3-5M parameters).
+#
+# This is the "tome_mode: none" config. Phase 2.2 adds a sibling config with
+# tome_mode: spatial; Phase 2.3 with tome_mode: temporal.
+
+track: track2
+dataset_name: wlasl9_baseline
+
+dataset:
+  name: video
+  train_args:
+    manifest_path: wlasl/prepared/wlasl9_train.json
+    videos_root: wlasl
+    num_frames: 16
+    sampling: random
+    resolution: 224
+  val_args:
+    manifest_path: wlasl/prepared/wlasl9_val.json
+    videos_root: wlasl
+    num_frames: 16
+    sampling: uniform
+    resolution: 224
+
+model:
+  name: temporal_tome_model
+  args:
+    num_classes: 8
+    num_frames: 16
+    image_size: 224
+    backbone_name: vit_small_patch16_224.augreg_in21k_ft_in1k
+    d_model: 384
+    nhead: 6
+    num_layers: 3
+    dim_feedforward: 768
+    dropout: 0.2
+    tome_mode: none
+    tome_ratio: 0.5
+    tome_tau: 2.0
+
+training:
+  device: auto
+  seed: 0
+  epochs: 60
+  batch_size: 4
+  num_workers: 2
+  lr: 1.0e-3            # head only; backbone is frozen so we can be aggressive
+  weight_decay: 1.0e-4
+  warmup_epochs: 4
+  grad_clip: 1.0
+  amp: true
+  out_dir: checkpoints
+  class_weights: auto
+
+logging:
+  project: ml-final-signreader
+  tags: [track2, wlasl9, vit-s16, baseline]
+
+distillation:
+  enabled: false

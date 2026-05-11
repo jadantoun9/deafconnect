@@ -1,0 +1,42 @@
+{
+  "drink": {
+    "requested": 35,
+    "missing": 20,
+    "kept": 15
+  },
+  "go": {
+    "requested": 26,
+    "missing": 11,
+    "kept": 15
+  },
+  "help": {
+    "requested": 22,
+    "missing": 8,
+    "kept": 14
+  },
+  "who": {
+    "requested": 25,
+    "missing": 11,
+    "kept": 14
+  },
+  "yes": {
+    "requested": 22,
+    "missing": 10,
+    "kept": 12
+  },
+  "no": {
+    "requested": 22,
+    "missing": 11,
+    "kept": 11
+  },
+  "before": {
+    "requested": 26,
+    "missing": 10,
+    "kept": 16
+  },
+  "walk": {
+    "requested": 22,
+    "missing": 11,
+    "kept": 11
+  }
+}

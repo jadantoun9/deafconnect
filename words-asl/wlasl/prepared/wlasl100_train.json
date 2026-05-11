@@ -1,0 +1,6546 @@
+[
+  {
+    "video_id": "01610",
+    "video_path": "videos/01610.mp4",
+    "gloss": "a",
+    "label": 0,
+    "signer_id": 21,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      124,
+      33,
+      565,
+      480
+    ]
+  },
+  {
+    "video_id": "01612",
+    "video_path": "videos/01612.mp4",
+    "gloss": "a",
+    "label": 0,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      85,
+      7,
+      217,
+      192
+    ]
+  },
+  {
+    "video_id": "01615",
+    "video_path": "videos/01615.mp4",
+    "gloss": "a",
+    "label": 0,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      179,
+      44,
+      586,
+      400
+    ]
+  },
+  {
+    "video_id": "02124",
+    "video_path": "videos/02124.mp4",
+    "gloss": "a lot",
+    "label": 1,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      55,
+      10,
+      255,
+      240
+    ]
+  },
+  {
+    "video_id": "02129",
+    "video_path": "videos/02129.mp4",
+    "gloss": "a lot",
+    "label": 1,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      82,
+      14,
+      221,
+      192
+    ]
+  },
+  {
+    "video_id": "02125",
+    "video_path": "videos/02125.mp4",
+    "gloss": "a lot",
+    "label": 1,
+    "signer_id": 32,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      474,
+      51,
+      1544,
+      1080
+    ]
+  },
+  {
+    "video_id": "02126",
+    "video_path": "videos/02126.mp4",
+    "gloss": "a lot",
+    "label": 1,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      82,
+      5,
+      521,
+      480
+    ]
+  },
+  {
+    "video_id": "02131",
+    "video_path": "videos/02131.mp4",
+    "gloss": "a lot",
+    "label": 1,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      160,
+      43,
+      628,
+      400
+    ]
+  },
+  {
+    "video_id": "00336",
+    "video_path": "videos/00336.mp4",
+    "gloss": "abdomen",
+    "label": 2,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      103,
+      0,
+      565,
+      480
+    ]
+  },
+  {
+    "video_id": "00338",
+    "video_path": "videos/00338.mp4",
+    "gloss": "abdomen",
+    "label": 2,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      68,
+      14,
+      214,
+      192
+    ]
+  },
+  {
+    "video_id": "00341",
+    "video_path": "videos/00341.mp4",
+    "gloss": "abdomen",
+    "label": 2,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      190,
+      46,
+      571,
+      400
+    ]
+  },
+  {
+    "video_id": "00377",
+    "video_path": "videos/00377.mp4",
+    "gloss": "able",
+    "label": 3,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      69,
+      17,
+      552,
+      480
+    ]
+  },
+  {
+    "video_id": "00381",
+    "video_path": "videos/00381.mp4",
+    "gloss": "able",
+    "label": 3,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      77,
+      18,
+      237,
+      192
+    ]
+  },
+  {
+    "video_id": "00384",
+    "video_path": "videos/00384.mp4",
+    "gloss": "able",
+    "label": 3,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      180,
+      46,
+      579,
+      400
+    ]
+  },
+  {
+    "video_id": "00416",
+    "video_path": "videos/00416.mp4",
+    "gloss": "about",
+    "label": 4,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      124,
+      30,
+      517,
+      480
+    ]
+  },
+  {
+    "video_id": "65002",
+    "video_path": "videos/65002.mp4",
+    "gloss": "about",
+    "label": 4,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      202,
+      39,
+      506,
+      370
+    ]
+  },
+  {
+    "video_id": "65003",
+    "video_path": "videos/65003.mp4",
+    "gloss": "about",
+    "label": 4,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      207,
+      40,
+      505,
+      370
+    ]
+  },
+  {
+    "video_id": "00414",
+    "video_path": "videos/00414.mp4",
+    "gloss": "about",
+    "label": 4,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      64,
+      27,
+      241,
+      240
+    ]
+  },
+  {
+    "video_id": "00426",
+    "video_path": "videos/00426.mp4",
+    "gloss": "about",
+    "label": 4,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      181,
+      47,
+      575,
+      400
+    ]
+  },
+  {
+    "video_id": "00415",
+    "video_path": "videos/00415.mp4",
+    "gloss": "about",
+    "label": 4,
+    "signer_id": 27,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      795,
+      65,
+      1771,
+      1080
+    ]
+  },
+  {
+    "video_id": "65004",
+    "video_path": "videos/65004.mp4",
+    "gloss": "above",
+    "label": 5,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      149,
+      13,
+      473,
+      370
+    ]
+  },
+  {
+    "video_id": "00430",
+    "video_path": "videos/00430.mp4",
+    "gloss": "above",
+    "label": 5,
+    "signer_id": 3,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      441,
+      0,
+      1421,
+      1075
+    ]
+  },
+  {
+    "video_id": "00433",
+    "video_path": "videos/00433.mp4",
+    "gloss": "above",
+    "label": 5,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      56,
+      16,
+      218,
+      192
+    ]
+  },
+  {
+    "video_id": "00435",
+    "video_path": "videos/00435.mp4",
+    "gloss": "above",
+    "label": 5,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      183,
+      47,
+      569,
+      400
+    ]
+  },
+  {
+    "video_id": "00583",
+    "video_path": "videos/00583.mp4",
+    "gloss": "accent",
+    "label": 6,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      602,
+      48,
+      1641,
+      1079
+    ]
+  },
+  {
+    "video_id": "00584",
+    "video_path": "videos/00584.mp4",
+    "gloss": "accent",
+    "label": 6,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      673,
+      54,
+      1668,
+      1073
+    ]
+  },
+  {
+    "video_id": "00585",
+    "video_path": "videos/00585.mp4",
+    "gloss": "accent",
+    "label": 6,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      579,
+      47,
+      1666,
+      1080
+    ]
+  },
+  {
+    "video_id": "00586",
+    "video_path": "videos/00586.mp4",
+    "gloss": "accent",
+    "label": 6,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      708,
+      64,
+      1525,
+      1053
+    ]
+  },
+  {
+    "video_id": "65007",
+    "video_path": "videos/65007.mp4",
+    "gloss": "accept",
+    "label": 7,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      205,
+      38,
+      513,
+      370
+    ]
+  },
+  {
+    "video_id": "00593",
+    "video_path": "videos/00593.mp4",
+    "gloss": "accept",
+    "label": 7,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      442,
+      82,
+      1760,
+      1080
+    ]
+  },
+  {
+    "video_id": "00597",
+    "video_path": "videos/00597.mp4",
+    "gloss": "accept",
+    "label": 7,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      96,
+      17,
+      624,
+      480
+    ]
+  },
+  {
+    "video_id": "00594",
+    "video_path": "videos/00594.mp4",
+    "gloss": "accept",
+    "label": 7,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      512,
+      107,
+      1397,
+      1080
+    ]
+  },
+  {
+    "video_id": "00599",
+    "video_path": "videos/00599.mp4",
+    "gloss": "accept",
+    "label": 7,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      59,
+      15,
+      225,
+      192
+    ]
+  },
+  {
+    "video_id": "00603",
+    "video_path": "videos/00603.mp4",
+    "gloss": "accept",
+    "label": 7,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      177,
+      46,
+      579,
+      400
+    ]
+  },
+  {
+    "video_id": "00639",
+    "video_path": "videos/00639.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      180,
+      45,
+      574,
+      400
+    ]
+  },
+  {
+    "video_id": "00624",
+    "video_path": "videos/00624.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 29,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      42,
+      6,
+      278,
+      240
+    ]
+  },
+  {
+    "video_id": "00628",
+    "video_path": "videos/00628.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      677,
+      98,
+      1386,
+      1080
+    ]
+  },
+  {
+    "video_id": "00629",
+    "video_path": "videos/00629.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      69,
+      23,
+      613,
+      480
+    ]
+  },
+  {
+    "video_id": "00631",
+    "video_path": "videos/00631.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      40,
+      15,
+      252,
+      192
+    ]
+  },
+  {
+    "video_id": "00632",
+    "video_path": "videos/00632.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      53,
+      14,
+      218,
+      192
+    ]
+  },
+  {
+    "video_id": "65009",
+    "video_path": "videos/65009.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      622,
+      126,
+      1450,
+      1079
+    ]
+  },
+  {
+    "video_id": "00623",
+    "video_path": "videos/00623.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      54,
+      6,
+      272,
+      240
+    ]
+  },
+  {
+    "video_id": "00633",
+    "video_path": "videos/00633.mp4",
+    "gloss": "accident",
+    "label": 8,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      81,
+      16,
+      223,
+      192
+    ]
+  },
+  {
+    "video_id": "65010",
+    "video_path": "videos/65010.mp4",
+    "gloss": "accomplish",
+    "label": 9,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      153,
+      14,
+      497,
+      370
+    ]
+  },
+  {
+    "video_id": "00663",
+    "video_path": "videos/00663.mp4",
+    "gloss": "accomplish",
+    "label": 9,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      57,
+      19,
+      309,
+      240
+    ]
+  },
+  {
+    "video_id": "00666",
+    "video_path": "videos/00666.mp4",
+    "gloss": "accomplish",
+    "label": 9,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      31,
+      3,
+      260,
+      192
+    ]
+  },
+  {
+    "video_id": "00668",
+    "video_path": "videos/00668.mp4",
+    "gloss": "accomplish",
+    "label": 9,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      156,
+      44,
+      578,
+      400
+    ]
+  },
+  {
+    "video_id": "00690",
+    "video_path": "videos/00690.mp4",
+    "gloss": "accountant",
+    "label": 10,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      78,
+      25,
+      561,
+      480
+    ]
+  },
+  {
+    "video_id": "00694",
+    "video_path": "videos/00694.mp4",
+    "gloss": "accountant",
+    "label": 10,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      193,
+      48,
+      562,
+      400
+    ]
+  },
+  {
+    "video_id": "00842",
+    "video_path": "videos/00842.mp4",
+    "gloss": "across",
+    "label": 11,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      194,
+      47,
+      557,
+      400
+    ]
+  },
+  {
+    "video_id": "00835",
+    "video_path": "videos/00835.mp4",
+    "gloss": "across",
+    "label": 11,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      601,
+      70,
+      1537,
+      1080
+    ]
+  },
+  {
+    "video_id": "00836",
+    "video_path": "videos/00836.mp4",
+    "gloss": "across",
+    "label": 11,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      648,
+      79,
+      1538,
+      1080
+    ]
+  },
+  {
+    "video_id": "00839",
+    "video_path": "videos/00839.mp4",
+    "gloss": "across",
+    "label": 11,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      62,
+      10,
+      216,
+      192
+    ]
+  },
+  {
+    "video_id": "00847",
+    "video_path": "videos/00847.mp4",
+    "gloss": "act",
+    "label": 12,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      78,
+      17,
+      593,
+      480
+    ]
+  },
+  {
+    "video_id": "00849",
+    "video_path": "videos/00849.mp4",
+    "gloss": "act",
+    "label": 12,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      64,
+      11,
+      231,
+      192
+    ]
+  },
+  {
+    "video_id": "00851",
+    "video_path": "videos/00851.mp4",
+    "gloss": "act",
+    "label": 12,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      190,
+      47,
+      561,
+      400
+    ]
+  },
+  {
+    "video_id": "00854",
+    "video_path": "videos/00854.mp4",
+    "gloss": "action",
+    "label": 13,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      82,
+      22,
+      538,
+      480
+    ]
+  },
+  {
+    "video_id": "00855",
+    "video_path": "videos/00855.mp4",
+    "gloss": "action",
+    "label": 13,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      71,
+      21,
+      231,
+      192
+    ]
+  },
+  {
+    "video_id": "00858",
+    "video_path": "videos/00858.mp4",
+    "gloss": "action",
+    "label": 13,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      173,
+      48,
+      574,
+      400
+    ]
+  },
+  {
+    "video_id": "00869",
+    "video_path": "videos/00869.mp4",
+    "gloss": "active",
+    "label": 14,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      93,
+      16,
+      616,
+      480
+    ]
+  },
+  {
+    "video_id": "00871",
+    "video_path": "videos/00871.mp4",
+    "gloss": "active",
+    "label": 14,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      45,
+      23,
+      253,
+      192
+    ]
+  },
+  {
+    "video_id": "00874",
+    "video_path": "videos/00874.mp4",
+    "gloss": "active",
+    "label": 14,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      183,
+      48,
+      593,
+      400
+    ]
+  },
+  {
+    "video_id": "65016",
+    "video_path": "videos/65016.mp4",
+    "gloss": "activity",
+    "label": 15,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      160,
+      13,
+      488,
+      370
+    ]
+  },
+  {
+    "video_id": "00890",
+    "video_path": "videos/00890.mp4",
+    "gloss": "activity",
+    "label": 15,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      312,
+      53,
+      1920,
+      1080
+    ]
+  },
+  {
+    "video_id": "00891",
+    "video_path": "videos/00891.mp4",
+    "gloss": "activity",
+    "label": 15,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      82,
+      22,
+      538,
+      480
+    ]
+  },
+  {
+    "video_id": "00894",
+    "video_path": "videos/00894.mp4",
+    "gloss": "activity",
+    "label": 15,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      71,
+      21,
+      231,
+      192
+    ]
+  },
+  {
+    "video_id": "65017",
+    "video_path": "videos/65017.mp4",
+    "gloss": "actor",
+    "label": 16,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      188,
+      0,
+      529,
+      370
+    ]
+  },
+  {
+    "video_id": "00899",
+    "video_path": "videos/00899.mp4",
+    "gloss": "actor",
+    "label": 16,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      188,
+      15,
+      563,
+      414
+    ]
+  },
+  {
+    "video_id": "00901",
+    "video_path": "videos/00901.mp4",
+    "gloss": "actor",
+    "label": 16,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      55,
+      8,
+      219,
+      192
+    ]
+  },
+  {
+    "video_id": "00904",
+    "video_path": "videos/00904.mp4",
+    "gloss": "actor",
+    "label": 16,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      178,
+      48,
+      554,
+      400
+    ]
+  },
+  {
+    "video_id": "00946",
+    "video_path": "videos/00946.mp4",
+    "gloss": "adapt",
+    "label": 17,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      736,
+      143,
+      1527,
+      1080
+    ]
+  },
+  {
+    "video_id": "00947",
+    "video_path": "videos/00947.mp4",
+    "gloss": "adapt",
+    "label": 17,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      120,
+      21,
+      516,
+      480
+    ]
+  },
+  {
+    "video_id": "00949",
+    "video_path": "videos/00949.mp4",
+    "gloss": "adapt",
+    "label": 17,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      80,
+      14,
+      203,
+      192
+    ]
+  },
+  {
+    "video_id": "00951",
+    "video_path": "videos/00951.mp4",
+    "gloss": "adapt",
+    "label": 17,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      244,
+      37,
+      496,
+      400
+    ]
+  },
+  {
+    "video_id": "65018",
+    "video_path": "videos/65018.mp4",
+    "gloss": "add",
+    "label": 18,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      166,
+      32,
+      484,
+      370
+    ]
+  },
+  {
+    "video_id": "00967",
+    "video_path": "videos/00967.mp4",
+    "gloss": "add",
+    "label": 18,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      76,
+      15,
+      202,
+      192
+    ]
+  },
+  {
+    "video_id": "00962",
+    "video_path": "videos/00962.mp4",
+    "gloss": "add",
+    "label": 18,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      367,
+      45,
+      1768,
+      1080
+    ]
+  },
+  {
+    "video_id": "00963",
+    "video_path": "videos/00963.mp4",
+    "gloss": "add",
+    "label": 18,
+    "signer_id": 32,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      436,
+      44,
+      1673,
+      1080
+    ]
+  },
+  {
+    "video_id": "00964",
+    "video_path": "videos/00964.mp4",
+    "gloss": "add",
+    "label": 18,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      301,
+      49,
+      1580,
+      1080
+    ]
+  },
+  {
+    "video_id": "00965",
+    "video_path": "videos/00965.mp4",
+    "gloss": "add",
+    "label": 18,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      90,
+      21,
+      531,
+      480
+    ]
+  },
+  {
+    "video_id": "01018",
+    "video_path": "videos/01018.mp4",
+    "gloss": "address",
+    "label": 19,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      67,
+      17,
+      227,
+      192
+    ]
+  },
+  {
+    "video_id": "01024",
+    "video_path": "videos/01024.mp4",
+    "gloss": "address",
+    "label": 19,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      232,
+      38,
+      523,
+      400
+    ]
+  },
+  {
+    "video_id": "01012",
+    "video_path": "videos/01012.mp4",
+    "gloss": "address",
+    "label": 19,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      562,
+      30,
+      1920,
+      1080
+    ]
+  },
+  {
+    "video_id": "01065",
+    "video_path": "videos/01065.mp4",
+    "gloss": "adjective",
+    "label": 20,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      709,
+      47,
+      1623,
+      1066
+    ]
+  },
+  {
+    "video_id": "01066",
+    "video_path": "videos/01066.mp4",
+    "gloss": "adjective",
+    "label": 20,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      92,
+      24,
+      517,
+      480
+    ]
+  },
+  {
+    "video_id": "01068",
+    "video_path": "videos/01068.mp4",
+    "gloss": "adjective",
+    "label": 20,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      59,
+      18,
+      211,
+      192
+    ]
+  },
+  {
+    "video_id": "01076",
+    "video_path": "videos/01076.mp4",
+    "gloss": "adjust",
+    "label": 21,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      80,
+      14,
+      203,
+      192
+    ]
+  },
+  {
+    "video_id": "01079",
+    "video_path": "videos/01079.mp4",
+    "gloss": "adjust",
+    "label": 21,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      247,
+      34,
+      499,
+      400
+    ]
+  },
+  {
+    "video_id": "01101",
+    "video_path": "videos/01101.mp4",
+    "gloss": "admire",
+    "label": 22,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      136,
+      22,
+      572,
+      480
+    ]
+  },
+  {
+    "video_id": "01103",
+    "video_path": "videos/01103.mp4",
+    "gloss": "admire",
+    "label": 22,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      72,
+      10,
+      208,
+      192
+    ]
+  },
+  {
+    "video_id": "01107",
+    "video_path": "videos/01107.mp4",
+    "gloss": "admire",
+    "label": 22,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      236,
+      37,
+      559,
+      400
+    ]
+  },
+  {
+    "video_id": "01127",
+    "video_path": "videos/01127.mp4",
+    "gloss": "admit",
+    "label": 23,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      237,
+      38,
+      504,
+      400
+    ]
+  },
+  {
+    "video_id": "01118",
+    "video_path": "videos/01118.mp4",
+    "gloss": "admit",
+    "label": 23,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      587,
+      42,
+      1641,
+      1070
+    ]
+  },
+  {
+    "video_id": "01120",
+    "video_path": "videos/01120.mp4",
+    "gloss": "admit",
+    "label": 23,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      72,
+      22,
+      502,
+      480
+    ]
+  },
+  {
+    "video_id": "01122",
+    "video_path": "videos/01122.mp4",
+    "gloss": "admit",
+    "label": 23,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      66,
+      9,
+      216,
+      192
+    ]
+  },
+  {
+    "video_id": "65022",
+    "video_path": "videos/65022.mp4",
+    "gloss": "adopt",
+    "label": 24,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      149,
+      24,
+      526,
+      370
+    ]
+  },
+  {
+    "video_id": "01157",
+    "video_path": "videos/01157.mp4",
+    "gloss": "adopt",
+    "label": 24,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      75,
+      22,
+      584,
+      480
+    ]
+  },
+  {
+    "video_id": "01160",
+    "video_path": "videos/01160.mp4",
+    "gloss": "adopt",
+    "label": 24,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      66,
+      17,
+      220,
+      192
+    ]
+  },
+  {
+    "video_id": "01162",
+    "video_path": "videos/01162.mp4",
+    "gloss": "adopt",
+    "label": 24,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      256,
+      36,
+      521,
+      400
+    ]
+  },
+  {
+    "video_id": "01214",
+    "video_path": "videos/01214.mp4",
+    "gloss": "adult",
+    "label": 25,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      35,
+      0,
+      220,
+      192
+    ]
+  },
+  {
+    "video_id": "01206",
+    "video_path": "videos/01206.mp4",
+    "gloss": "adult",
+    "label": 25,
+    "signer_id": 19,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      83,
+      10,
+      237,
+      180
+    ]
+  },
+  {
+    "video_id": "01217",
+    "video_path": "videos/01217.mp4",
+    "gloss": "adult",
+    "label": 25,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      198,
+      36,
+      500,
+      400
+    ]
+  },
+  {
+    "video_id": "01207",
+    "video_path": "videos/01207.mp4",
+    "gloss": "adult",
+    "label": 25,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      36,
+      5,
+      250,
+      240
+    ]
+  },
+  {
+    "video_id": "01208",
+    "video_path": "videos/01208.mp4",
+    "gloss": "adult",
+    "label": 25,
+    "signer_id": 0,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      49,
+      5,
+      252,
+      240
+    ]
+  },
+  {
+    "video_id": "01209",
+    "video_path": "videos/01209.mp4",
+    "gloss": "adult",
+    "label": 25,
+    "signer_id": 32,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      620,
+      70,
+      1619,
+      1070
+    ]
+  },
+  {
+    "video_id": "01227",
+    "video_path": "videos/01227.mp4",
+    "gloss": "advanced",
+    "label": 26,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      449,
+      25,
+      1852,
+      1080
+    ]
+  },
+  {
+    "video_id": "01229",
+    "video_path": "videos/01229.mp4",
+    "gloss": "advanced",
+    "label": 26,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      38,
+      12,
+      248,
+      192
+    ]
+  },
+  {
+    "video_id": "01231",
+    "video_path": "videos/01231.mp4",
+    "gloss": "advanced",
+    "label": 26,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      215,
+      36,
+      542,
+      400
+    ]
+  },
+  {
+    "video_id": "65025",
+    "video_path": "videos/65025.mp4",
+    "gloss": "advantage",
+    "label": 27,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      207,
+      39,
+      503,
+      370
+    ]
+  },
+  {
+    "video_id": "01252",
+    "video_path": "videos/01252.mp4",
+    "gloss": "advantage",
+    "label": 27,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      233,
+      35,
+      486,
+      400
+    ]
+  },
+  {
+    "video_id": "01265",
+    "video_path": "videos/01265.mp4",
+    "gloss": "adverb",
+    "label": 28,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      70,
+      4,
+      257,
+      240
+    ]
+  },
+  {
+    "video_id": "01266",
+    "video_path": "videos/01266.mp4",
+    "gloss": "adverb",
+    "label": 28,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      98,
+      27,
+      507,
+      480
+    ]
+  },
+  {
+    "video_id": "01268",
+    "video_path": "videos/01268.mp4",
+    "gloss": "adverb",
+    "label": 28,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      69,
+      19,
+      209,
+      191
+    ]
+  },
+  {
+    "video_id": "01320",
+    "video_path": "videos/01320.mp4",
+    "gloss": "affect",
+    "label": 29,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      89,
+      18,
+      574,
+      480
+    ]
+  },
+  {
+    "video_id": "01321",
+    "video_path": "videos/01321.mp4",
+    "gloss": "affect",
+    "label": 29,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      125,
+      0,
+      596,
+      480
+    ]
+  },
+  {
+    "video_id": "01327",
+    "video_path": "videos/01327.mp4",
+    "gloss": "affect",
+    "label": 29,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      244,
+      36,
+      506,
+      400
+    ]
+  },
+  {
+    "video_id": "01374",
+    "video_path": "videos/01374.mp4",
+    "gloss": "afraid",
+    "label": 30,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      138,
+      19,
+      571,
+      480
+    ]
+  },
+  {
+    "video_id": "01376",
+    "video_path": "videos/01376.mp4",
+    "gloss": "afraid",
+    "label": 30,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      72,
+      3,
+      236,
+      192
+    ]
+  },
+  {
+    "video_id": "01381",
+    "video_path": "videos/01381.mp4",
+    "gloss": "afraid",
+    "label": 30,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      209,
+      37,
+      533,
+      400
+    ]
+  },
+  {
+    "video_id": "01383",
+    "video_path": "videos/01383.mp4",
+    "gloss": "africa",
+    "label": 31,
+    "signer_id": 35,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      55,
+      0,
+      259,
+      240
+    ]
+  },
+  {
+    "video_id": "01384",
+    "video_path": "videos/01384.mp4",
+    "gloss": "africa",
+    "label": 31,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      409,
+      56,
+      822,
+      720
+    ]
+  },
+  {
+    "video_id": "01385",
+    "video_path": "videos/01385.mp4",
+    "gloss": "africa",
+    "label": 31,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      670,
+      44,
+      1529,
+      1078
+    ]
+  },
+  {
+    "video_id": "01387",
+    "video_path": "videos/01387.mp4",
+    "gloss": "africa",
+    "label": 31,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      525,
+      51,
+      1520,
+      1080
+    ]
+  },
+  {
+    "video_id": "01388",
+    "video_path": "videos/01388.mp4",
+    "gloss": "africa",
+    "label": 31,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      137,
+      16,
+      531,
+      480
+    ]
+  },
+  {
+    "video_id": "65029",
+    "video_path": "videos/65029.mp4",
+    "gloss": "africa",
+    "label": 31,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      129,
+      22,
+      473,
+      370
+    ]
+  },
+  {
+    "video_id": "01418",
+    "video_path": "videos/01418.mp4",
+    "gloss": "after",
+    "label": 32,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      67,
+      21,
+      273,
+      240
+    ]
+  },
+  {
+    "video_id": "01428",
+    "video_path": "videos/01428.mp4",
+    "gloss": "after",
+    "label": 32,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      232,
+      38,
+      508,
+      400
+    ]
+  },
+  {
+    "video_id": "01419",
+    "video_path": "videos/01419.mp4",
+    "gloss": "after",
+    "label": 32,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      395,
+      52,
+      816,
+      720
+    ]
+  },
+  {
+    "video_id": "01442",
+    "video_path": "videos/01442.mp4",
+    "gloss": "afternoon",
+    "label": 33,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      176,
+      44,
+      540,
+      400
+    ]
+  },
+  {
+    "video_id": "65031",
+    "video_path": "videos/65031.mp4",
+    "gloss": "afternoon",
+    "label": 33,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      174,
+      13,
+      472,
+      370
+    ]
+  },
+  {
+    "video_id": "01433",
+    "video_path": "videos/01433.mp4",
+    "gloss": "afternoon",
+    "label": 33,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      72,
+      7,
+      261,
+      240
+    ]
+  },
+  {
+    "video_id": "01434",
+    "video_path": "videos/01434.mp4",
+    "gloss": "afternoon",
+    "label": 33,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      219,
+      17,
+      541,
+      414
+    ]
+  },
+  {
+    "video_id": "01435",
+    "video_path": "videos/01435.mp4",
+    "gloss": "afternoon",
+    "label": 33,
+    "signer_id": 46,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      444,
+      17,
+      1240,
+      1079
+    ]
+  },
+  {
+    "video_id": "01466",
+    "video_path": "videos/01466.mp4",
+    "gloss": "again",
+    "label": 34,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      69,
+      15,
+      209,
+      192
+    ]
+  },
+  {
+    "video_id": "01460",
+    "video_path": "videos/01460.mp4",
+    "gloss": "again",
+    "label": 34,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      68,
+      9,
+      239,
+      240
+    ]
+  },
+  {
+    "video_id": "01471",
+    "video_path": "videos/01471.mp4",
+    "gloss": "again",
+    "label": 34,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      135,
+      49,
+      547,
+      400
+    ]
+  },
+  {
+    "video_id": "01461",
+    "video_path": "videos/01461.mp4",
+    "gloss": "again",
+    "label": 34,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      168,
+      17,
+      527,
+      414
+    ]
+  },
+  {
+    "video_id": "01463",
+    "video_path": "videos/01463.mp4",
+    "gloss": "again",
+    "label": 34,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      101,
+      29,
+      514,
+      480
+    ]
+  },
+  {
+    "video_id": "01464",
+    "video_path": "videos/01464.mp4",
+    "gloss": "again",
+    "label": 34,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      123,
+      30,
+      580,
+      480
+    ]
+  },
+  {
+    "video_id": "01473",
+    "video_path": "videos/01473.mp4",
+    "gloss": "against",
+    "label": 35,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      40,
+      8,
+      278,
+      240
+    ]
+  },
+  {
+    "video_id": "01474",
+    "video_path": "videos/01474.mp4",
+    "gloss": "against",
+    "label": 35,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      134,
+      19,
+      587,
+      480
+    ]
+  },
+  {
+    "video_id": "01479",
+    "video_path": "videos/01479.mp4",
+    "gloss": "against",
+    "label": 35,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      183,
+      49,
+      540,
+      400
+    ]
+  },
+  {
+    "video_id": "65034",
+    "video_path": "videos/65034.mp4",
+    "gloss": "age",
+    "label": 36,
+    "signer_id": 93,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      186,
+      39,
+      471,
+      370
+    ]
+  },
+  {
+    "video_id": "01485",
+    "video_path": "videos/01485.mp4",
+    "gloss": "age",
+    "label": 36,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      64,
+      5,
+      237,
+      240
+    ]
+  },
+  {
+    "video_id": "01495",
+    "video_path": "videos/01495.mp4",
+    "gloss": "age",
+    "label": 36,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      178,
+      49,
+      536,
+      400
+    ]
+  },
+  {
+    "video_id": "01486",
+    "video_path": "videos/01486.mp4",
+    "gloss": "age",
+    "label": 36,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      697,
+      44,
+      1583,
+      1078
+    ]
+  },
+  {
+    "video_id": "01515",
+    "video_path": "videos/01515.mp4",
+    "gloss": "agenda",
+    "label": 37,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      181,
+      42,
+      534,
+      400
+    ]
+  },
+  {
+    "video_id": "01505",
+    "video_path": "videos/01505.mp4",
+    "gloss": "agenda",
+    "label": 37,
+    "signer_id": 33,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      74,
+      17,
+      255,
+      240
+    ]
+  },
+  {
+    "video_id": "01507",
+    "video_path": "videos/01507.mp4",
+    "gloss": "agenda",
+    "label": 37,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      680,
+      54,
+      1559,
+      1080
+    ]
+  },
+  {
+    "video_id": "01557",
+    "video_path": "videos/01557.mp4",
+    "gloss": "ago",
+    "label": 38,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      67,
+      14,
+      216,
+      192
+    ]
+  },
+  {
+    "video_id": "01558",
+    "video_path": "videos/01558.mp4",
+    "gloss": "ago",
+    "label": 38,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      57,
+      8,
+      219,
+      192
+    ]
+  },
+  {
+    "video_id": "01561",
+    "video_path": "videos/01561.mp4",
+    "gloss": "ago",
+    "label": 38,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      34,
+      0,
+      218,
+      192
+    ]
+  },
+  {
+    "video_id": "01564",
+    "video_path": "videos/01564.mp4",
+    "gloss": "ago",
+    "label": 38,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      179,
+      48,
+      556,
+      399
+    ]
+  },
+  {
+    "video_id": "01552",
+    "video_path": "videos/01552.mp4",
+    "gloss": "ago",
+    "label": 38,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      53,
+      12,
+      251,
+      240
+    ]
+  },
+  {
+    "video_id": "01556",
+    "video_path": "videos/01556.mp4",
+    "gloss": "ago",
+    "label": 38,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      65,
+      9,
+      219,
+      192
+    ]
+  },
+  {
+    "video_id": "01575",
+    "video_path": "videos/01575.mp4",
+    "gloss": "agree",
+    "label": 39,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      35,
+      0,
+      280,
+      240
+    ]
+  },
+  {
+    "video_id": "01577",
+    "video_path": "videos/01577.mp4",
+    "gloss": "agree",
+    "label": 39,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      93,
+      23,
+      587,
+      480
+    ]
+  },
+  {
+    "video_id": "01579",
+    "video_path": "videos/01579.mp4",
+    "gloss": "agree",
+    "label": 39,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      58,
+      19,
+      218,
+      192
+    ]
+  },
+  {
+    "video_id": "01582",
+    "video_path": "videos/01582.mp4",
+    "gloss": "agree",
+    "label": 39,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      163,
+      49,
+      564,
+      400
+    ]
+  },
+  {
+    "video_id": "01584",
+    "video_path": "videos/01584.mp4",
+    "gloss": "agreement",
+    "label": 40,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      556,
+      80,
+      1542,
+      1080
+    ]
+  },
+  {
+    "video_id": "01585",
+    "video_path": "videos/01585.mp4",
+    "gloss": "agreement",
+    "label": 40,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      133,
+      0,
+      582,
+      480
+    ]
+  },
+  {
+    "video_id": "01586",
+    "video_path": "videos/01586.mp4",
+    "gloss": "agreement",
+    "label": 40,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      58,
+      19,
+      218,
+      192
+    ]
+  },
+  {
+    "video_id": "01587",
+    "video_path": "videos/01587.mp4",
+    "gloss": "agreement",
+    "label": 40,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      163,
+      49,
+      564,
+      400
+    ]
+  },
+  {
+    "video_id": "01599",
+    "video_path": "videos/01599.mp4",
+    "gloss": "ahead",
+    "label": 41,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      93,
+      17,
+      541,
+      480
+    ]
+  },
+  {
+    "video_id": "01602",
+    "video_path": "videos/01602.mp4",
+    "gloss": "ahead",
+    "label": 41,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      63,
+      15,
+      216,
+      192
+    ]
+  },
+  {
+    "video_id": "01605",
+    "video_path": "videos/01605.mp4",
+    "gloss": "ahead",
+    "label": 41,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      173,
+      49,
+      537,
+      400
+    ]
+  },
+  {
+    "video_id": "01624",
+    "video_path": "videos/01624.mp4",
+    "gloss": "aid",
+    "label": 42,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      122,
+      20,
+      517,
+      480
+    ]
+  },
+  {
+    "video_id": "01626",
+    "video_path": "videos/01626.mp4",
+    "gloss": "aid",
+    "label": 42,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      92,
+      24,
+      202,
+      192
+    ]
+  },
+  {
+    "video_id": "01627",
+    "video_path": "videos/01627.mp4",
+    "gloss": "aid",
+    "label": 42,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      72,
+      14,
+      217,
+      192
+    ]
+  },
+  {
+    "video_id": "01652",
+    "video_path": "videos/01652.mp4",
+    "gloss": "aim",
+    "label": 43,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      174,
+      47,
+      545,
+      400
+    ]
+  },
+  {
+    "video_id": "01653",
+    "video_path": "videos/01653.mp4",
+    "gloss": "aim",
+    "label": 43,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      170,
+      48,
+      525,
+      400
+    ]
+  },
+  {
+    "video_id": "01643",
+    "video_path": "videos/01643.mp4",
+    "gloss": "aim",
+    "label": 43,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      94,
+      12,
+      575,
+      480
+    ]
+  },
+  {
+    "video_id": "01646",
+    "video_path": "videos/01646.mp4",
+    "gloss": "aim",
+    "label": 43,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      71,
+      6,
+      197,
+      192
+    ]
+  },
+  {
+    "video_id": "01730",
+    "video_path": "videos/01730.mp4",
+    "gloss": "airplane",
+    "label": 44,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      42,
+      2,
+      234,
+      192
+    ]
+  },
+  {
+    "video_id": "01724",
+    "video_path": "videos/01724.mp4",
+    "gloss": "airplane",
+    "label": 44,
+    "signer_id": 29,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      39,
+      11,
+      261,
+      240
+    ]
+  },
+  {
+    "video_id": "01734",
+    "video_path": "videos/01734.mp4",
+    "gloss": "airplane",
+    "label": 44,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      165,
+      49,
+      554,
+      400
+    ]
+  },
+  {
+    "video_id": "01726",
+    "video_path": "videos/01726.mp4",
+    "gloss": "airplane",
+    "label": 44,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      605,
+      21,
+      1721,
+      1076
+    ]
+  },
+  {
+    "video_id": "01727",
+    "video_path": "videos/01727.mp4",
+    "gloss": "airplane",
+    "label": 44,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      101,
+      23,
+      503,
+      480
+    ]
+  },
+  {
+    "video_id": "01808",
+    "video_path": "videos/01808.mp4",
+    "gloss": "alarm",
+    "label": 45,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      171,
+      46,
+      538,
+      400
+    ]
+  },
+  {
+    "video_id": "65040",
+    "video_path": "videos/65040.mp4",
+    "gloss": "alarm",
+    "label": 45,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      165,
+      11,
+      470,
+      370
+    ]
+  },
+  {
+    "video_id": "01804",
+    "video_path": "videos/01804.mp4",
+    "gloss": "alarm",
+    "label": 45,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      68,
+      17,
+      217,
+      192
+    ]
+  },
+  {
+    "video_id": "01832",
+    "video_path": "videos/01832.mp4",
+    "gloss": "alcohol",
+    "label": 46,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      145,
+      20,
+      519,
+      480
+    ]
+  },
+  {
+    "video_id": "01836",
+    "video_path": "videos/01836.mp4",
+    "gloss": "alcohol",
+    "label": 46,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      89,
+      15,
+      224,
+      192
+    ]
+  },
+  {
+    "video_id": "01839",
+    "video_path": "videos/01839.mp4",
+    "gloss": "alcohol",
+    "label": 46,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      176,
+      48,
+      526,
+      400
+    ]
+  },
+  {
+    "video_id": "01875",
+    "video_path": "videos/01875.mp4",
+    "gloss": "algebra",
+    "label": 47,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      571,
+      71,
+      1587,
+      1080
+    ]
+  },
+  {
+    "video_id": "01876",
+    "video_path": "videos/01876.mp4",
+    "gloss": "algebra",
+    "label": 47,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      99,
+      16,
+      540,
+      480
+    ]
+  },
+  {
+    "video_id": "01880",
+    "video_path": "videos/01880.mp4",
+    "gloss": "algebra",
+    "label": 47,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      184,
+      47,
+      551,
+      400
+    ]
+  },
+  {
+    "video_id": "69206",
+    "video_path": "videos/69206.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 115,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      439,
+      68,
+      1366,
+      1080
+    ]
+  },
+  {
+    "video_id": "02003",
+    "video_path": "videos/02003.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      171,
+      49,
+      564,
+      400
+    ]
+  },
+  {
+    "video_id": "01987",
+    "video_path": "videos/01987.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      351,
+      53,
+      821,
+      720
+    ]
+  },
+  {
+    "video_id": "01988",
+    "video_path": "videos/01988.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      32,
+      13,
+      543,
+      480
+    ]
+  },
+  {
+    "video_id": "01991",
+    "video_path": "videos/01991.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      43,
+      22,
+      221,
+      192
+    ]
+  },
+  {
+    "video_id": "01992",
+    "video_path": "videos/01992.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      47,
+      23,
+      228,
+      192
+    ]
+  },
+  {
+    "video_id": "65043",
+    "video_path": "videos/65043.mp4",
+    "gloss": "all",
+    "label": 48,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      149,
+      10,
+      464,
+      370
+    ]
+  },
+  {
+    "video_id": "01922",
+    "video_path": "videos/01922.mp4",
+    "gloss": "all day",
+    "label": 49,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      310,
+      19,
+      1753,
+      1080
+    ]
+  },
+  {
+    "video_id": "01923",
+    "video_path": "videos/01923.mp4",
+    "gloss": "all day",
+    "label": 49,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      502,
+      65,
+      1484,
+      1080
+    ]
+  },
+  {
+    "video_id": "01924",
+    "video_path": "videos/01924.mp4",
+    "gloss": "all day",
+    "label": 49,
+    "signer_id": 46,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      165,
+      11,
+      1261,
+      1080
+    ]
+  },
+  {
+    "video_id": "01926",
+    "video_path": "videos/01926.mp4",
+    "gloss": "all day",
+    "label": 49,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      50,
+      3,
+      211,
+      192
+    ]
+  },
+  {
+    "video_id": "01927",
+    "video_path": "videos/01927.mp4",
+    "gloss": "all day",
+    "label": 49,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      84,
+      50,
+      543,
+      400
+    ]
+  },
+  {
+    "video_id": "65050",
+    "video_path": "videos/65050.mp4",
+    "gloss": "allergy",
+    "label": 50,
+    "signer_id": 95,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      170,
+      10,
+      492,
+      370
+    ]
+  },
+  {
+    "video_id": "01962",
+    "video_path": "videos/01962.mp4",
+    "gloss": "allergy",
+    "label": 50,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      41,
+      11,
+      237,
+      192
+    ]
+  },
+  {
+    "video_id": "01955",
+    "video_path": "videos/01955.mp4",
+    "gloss": "allergy",
+    "label": 50,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      65,
+      27,
+      260,
+      240
+    ]
+  },
+  {
+    "video_id": "01956",
+    "video_path": "videos/01956.mp4",
+    "gloss": "allergy",
+    "label": 50,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      343,
+      43,
+      1065,
+      720
+    ]
+  },
+  {
+    "video_id": "01957",
+    "video_path": "videos/01957.mp4",
+    "gloss": "allergy",
+    "label": 50,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      36,
+      22,
+      527,
+      480
+    ]
+  },
+  {
+    "video_id": "01960",
+    "video_path": "videos/01960.mp4",
+    "gloss": "allergy",
+    "label": 50,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      38,
+      13,
+      235,
+      192
+    ]
+  },
+  {
+    "video_id": "02010",
+    "video_path": "videos/02010.mp4",
+    "gloss": "alligator",
+    "label": 51,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      86,
+      7,
+      528,
+      480
+    ]
+  },
+  {
+    "video_id": "02012",
+    "video_path": "videos/02012.mp4",
+    "gloss": "alligator",
+    "label": 51,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      89,
+      19,
+      208,
+      192
+    ]
+  },
+  {
+    "video_id": "02014",
+    "video_path": "videos/02014.mp4",
+    "gloss": "alligator",
+    "label": 51,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      247,
+      38,
+      500,
+      400
+    ]
+  },
+  {
+    "video_id": "02052",
+    "video_path": "videos/02052.mp4",
+    "gloss": "allow",
+    "label": 52,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      208,
+      38,
+      526,
+      400
+    ]
+  },
+  {
+    "video_id": "65053",
+    "video_path": "videos/65053.mp4",
+    "gloss": "allow",
+    "label": 52,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      182,
+      15,
+      507,
+      370
+    ]
+  },
+  {
+    "video_id": "65054",
+    "video_path": "videos/65054.mp4",
+    "gloss": "allow",
+    "label": 52,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      192,
+      40,
+      493,
+      370
+    ]
+  },
+  {
+    "video_id": "02045",
+    "video_path": "videos/02045.mp4",
+    "gloss": "allow",
+    "label": 52,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      50,
+      4,
+      277,
+      240
+    ]
+  },
+  {
+    "video_id": "02046",
+    "video_path": "videos/02046.mp4",
+    "gloss": "allow",
+    "label": 52,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      67,
+      17,
+      561,
+      480
+    ]
+  },
+  {
+    "video_id": "65056",
+    "video_path": "videos/65056.mp4",
+    "gloss": "almost",
+    "label": 53,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      173,
+      34,
+      475,
+      370
+    ]
+  },
+  {
+    "video_id": "02091",
+    "video_path": "videos/02091.mp4",
+    "gloss": "almost",
+    "label": 53,
+    "signer_id": 35,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      54,
+      1,
+      269,
+      240
+    ]
+  },
+  {
+    "video_id": "02093",
+    "video_path": "videos/02093.mp4",
+    "gloss": "almost",
+    "label": 53,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      122,
+      17,
+      535,
+      480
+    ]
+  },
+  {
+    "video_id": "02095",
+    "video_path": "videos/02095.mp4",
+    "gloss": "almost",
+    "label": 53,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      58,
+      9,
+      213,
+      192
+    ]
+  },
+  {
+    "video_id": "02109",
+    "video_path": "videos/02109.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      80,
+      12,
+      209,
+      192
+    ]
+  },
+  {
+    "video_id": "02110",
+    "video_path": "videos/02110.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      69,
+      10,
+      209,
+      192
+    ]
+  },
+  {
+    "video_id": "65057",
+    "video_path": "videos/65057.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 91,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      223,
+      31,
+      463,
+      370
+    ]
+  },
+  {
+    "video_id": "02112",
+    "video_path": "videos/02112.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      234,
+      34,
+      485,
+      400
+    ]
+  },
+  {
+    "video_id": "02103",
+    "video_path": "videos/02103.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      73,
+      7,
+      238,
+      240
+    ]
+  },
+  {
+    "video_id": "02104",
+    "video_path": "videos/02104.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      452,
+      85,
+      1495,
+      1080
+    ]
+  },
+  {
+    "video_id": "02106",
+    "video_path": "videos/02106.mp4",
+    "gloss": "alone",
+    "label": 54,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      136,
+      21,
+      508,
+      480
+    ]
+  },
+  {
+    "video_id": "02151",
+    "video_path": "videos/02151.mp4",
+    "gloss": "alphabet",
+    "label": 55,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      223,
+      36,
+      484,
+      400
+    ]
+  },
+  {
+    "video_id": "65058",
+    "video_path": "videos/65058.mp4",
+    "gloss": "alphabet",
+    "label": 55,
+    "signer_id": 91,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      201,
+      32,
+      467,
+      370
+    ]
+  },
+  {
+    "video_id": "02168",
+    "video_path": "videos/02168.mp4",
+    "gloss": "already",
+    "label": 56,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      221,
+      36,
+      505,
+      400
+    ]
+  },
+  {
+    "video_id": "02160",
+    "video_path": "videos/02160.mp4",
+    "gloss": "already",
+    "label": 56,
+    "signer_id": 35,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      65,
+      3,
+      268,
+      240
+    ]
+  },
+  {
+    "video_id": "02162",
+    "video_path": "videos/02162.mp4",
+    "gloss": "already",
+    "label": 56,
+    "signer_id": 39,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      723,
+      144,
+      1655,
+      1080
+    ]
+  },
+  {
+    "video_id": "02163",
+    "video_path": "videos/02163.mp4",
+    "gloss": "already",
+    "label": 56,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      73,
+      23,
+      575,
+      480
+    ]
+  },
+  {
+    "video_id": "02165",
+    "video_path": "videos/02165.mp4",
+    "gloss": "already",
+    "label": 56,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      63,
+      21,
+      213,
+      192
+    ]
+  },
+  {
+    "video_id": "69207",
+    "video_path": "videos/69207.mp4",
+    "gloss": "also",
+    "label": 57,
+    "signer_id": 115,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      503,
+      83,
+      1321,
+      1080
+    ]
+  },
+  {
+    "video_id": "65059",
+    "video_path": "videos/65059.mp4",
+    "gloss": "also",
+    "label": 57,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      193,
+      41,
+      478,
+      370
+    ]
+  },
+  {
+    "video_id": "02177",
+    "video_path": "videos/02177.mp4",
+    "gloss": "also",
+    "label": 57,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      70,
+      11,
+      209,
+      192
+    ]
+  },
+  {
+    "video_id": "02178",
+    "video_path": "videos/02178.mp4",
+    "gloss": "also",
+    "label": 57,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      65,
+      11,
+      211,
+      192
+    ]
+  },
+  {
+    "video_id": "65061",
+    "video_path": "videos/65061.mp4",
+    "gloss": "always",
+    "label": 58,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      210,
+      1,
+      514,
+      370
+    ]
+  },
+  {
+    "video_id": "02238",
+    "video_path": "videos/02238.mp4",
+    "gloss": "always",
+    "label": 58,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      220,
+      34,
+      483,
+      400
+    ]
+  },
+  {
+    "video_id": "02228",
+    "video_path": "videos/02228.mp4",
+    "gloss": "always",
+    "label": 58,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      70,
+      8,
+      255,
+      240
+    ]
+  },
+  {
+    "video_id": "02233",
+    "video_path": "videos/02233.mp4",
+    "gloss": "always",
+    "label": 58,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      65,
+      26,
+      209,
+      192
+    ]
+  },
+  {
+    "video_id": "02276",
+    "video_path": "videos/02276.mp4",
+    "gloss": "amazing",
+    "label": 59,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      79,
+      17,
+      215,
+      192
+    ]
+  },
+  {
+    "video_id": "02269",
+    "video_path": "videos/02269.mp4",
+    "gloss": "amazing",
+    "label": 59,
+    "signer_id": 28,
+    "frame_start": 3,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      77,
+      34,
+      224,
+      224
+    ]
+  },
+  {
+    "video_id": "02285",
+    "video_path": "videos/02285.mp4",
+    "gloss": "amazing",
+    "label": 59,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      182,
+      43,
+      553,
+      400
+    ]
+  },
+  {
+    "video_id": "02356",
+    "video_path": "videos/02356.mp4",
+    "gloss": "america",
+    "label": 60,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      198,
+      47,
+      551,
+      400
+    ]
+  },
+  {
+    "video_id": "02349",
+    "video_path": "videos/02349.mp4",
+    "gloss": "america",
+    "label": 60,
+    "signer_id": 19,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      70,
+      14,
+      236,
+      180
+    ]
+  },
+  {
+    "video_id": "02350",
+    "video_path": "videos/02350.mp4",
+    "gloss": "america",
+    "label": 60,
+    "signer_id": 45,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      597,
+      124,
+      1588,
+      1072
+    ]
+  },
+  {
+    "video_id": "02351",
+    "video_path": "videos/02351.mp4",
+    "gloss": "america",
+    "label": 60,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      92,
+      17,
+      604,
+      480
+    ]
+  },
+  {
+    "video_id": "02431",
+    "video_path": "videos/02431.mp4",
+    "gloss": "amputate",
+    "label": 61,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      116,
+      18,
+      557,
+      480
+    ]
+  },
+  {
+    "video_id": "02434",
+    "video_path": "videos/02434.mp4",
+    "gloss": "amputate",
+    "label": 61,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      29,
+      12,
+      236,
+      192
+    ]
+  },
+  {
+    "video_id": "02435",
+    "video_path": "videos/02435.mp4",
+    "gloss": "amputate",
+    "label": 61,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      178,
+      46,
+      547,
+      400
+    ]
+  },
+  {
+    "video_id": "65066",
+    "video_path": "videos/65066.mp4",
+    "gloss": "analyze",
+    "label": 62,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      165,
+      4,
+      492,
+      370
+    ]
+  },
+  {
+    "video_id": "02474",
+    "video_path": "videos/02474.mp4",
+    "gloss": "analyze",
+    "label": 62,
+    "signer_id": 43,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      4,
+      0,
+      320,
+      180
+    ]
+  },
+  {
+    "video_id": "02476",
+    "video_path": "videos/02476.mp4",
+    "gloss": "analyze",
+    "label": 62,
+    "signer_id": 35,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      33,
+      0,
+      289,
+      240
+    ]
+  },
+  {
+    "video_id": "02477",
+    "video_path": "videos/02477.mp4",
+    "gloss": "analyze",
+    "label": 62,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      540,
+      99,
+      1360,
+      1080
+    ]
+  },
+  {
+    "video_id": "02478",
+    "video_path": "videos/02478.mp4",
+    "gloss": "analyze",
+    "label": 62,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      93,
+      30,
+      605,
+      480
+    ]
+  },
+  {
+    "video_id": "02487",
+    "video_path": "videos/02487.mp4",
+    "gloss": "anatomy",
+    "label": 63,
+    "signer_id": 15,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      73,
+      0,
+      623,
+      480
+    ]
+  },
+  {
+    "video_id": "02490",
+    "video_path": "videos/02490.mp4",
+    "gloss": "anatomy",
+    "label": 63,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      44,
+      11,
+      222,
+      192
+    ]
+  },
+  {
+    "video_id": "02492",
+    "video_path": "videos/02492.mp4",
+    "gloss": "anatomy",
+    "label": 63,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      168,
+      46,
+      568,
+      400
+    ]
+  },
+  {
+    "video_id": "02525",
+    "video_path": "videos/02525.mp4",
+    "gloss": "and",
+    "label": 64,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      158,
+      48,
+      549,
+      400
+    ]
+  },
+  {
+    "video_id": "02519",
+    "video_path": "videos/02519.mp4",
+    "gloss": "and",
+    "label": 64,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      102,
+      29,
+      520,
+      480
+    ]
+  },
+  {
+    "video_id": "02521",
+    "video_path": "videos/02521.mp4",
+    "gloss": "and",
+    "label": 64,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      73,
+      18,
+      211,
+      192
+    ]
+  },
+  {
+    "video_id": "02548",
+    "video_path": "videos/02548.mp4",
+    "gloss": "angel",
+    "label": 65,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      90,
+      30,
+      659,
+      400
+    ]
+  },
+  {
+    "video_id": "02540",
+    "video_path": "videos/02540.mp4",
+    "gloss": "angel",
+    "label": 65,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      31,
+      3,
+      275,
+      240
+    ]
+  },
+  {
+    "video_id": "02541",
+    "video_path": "videos/02541.mp4",
+    "gloss": "angel",
+    "label": 65,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      460,
+      45,
+      1654,
+      1080
+    ]
+  },
+  {
+    "video_id": "02542",
+    "video_path": "videos/02542.mp4",
+    "gloss": "angel",
+    "label": 65,
+    "signer_id": 22,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      0,
+      10,
+      624,
+      480
+    ]
+  },
+  {
+    "video_id": "02558",
+    "video_path": "videos/02558.mp4",
+    "gloss": "angle",
+    "label": 66,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      75,
+      19,
+      246,
+      240
+    ]
+  },
+  {
+    "video_id": "02559",
+    "video_path": "videos/02559.mp4",
+    "gloss": "angle",
+    "label": 66,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      578,
+      60,
+      1586,
+      1080
+    ]
+  },
+  {
+    "video_id": "02560",
+    "video_path": "videos/02560.mp4",
+    "gloss": "angle",
+    "label": 66,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      700,
+      59,
+      1705,
+      1080
+    ]
+  },
+  {
+    "video_id": "02563",
+    "video_path": "videos/02563.mp4",
+    "gloss": "angle",
+    "label": 66,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      229,
+      36,
+      493,
+      400
+    ]
+  },
+  {
+    "video_id": "02569",
+    "video_path": "videos/02569.mp4",
+    "gloss": "angry",
+    "label": 67,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      87,
+      21,
+      586,
+      480
+    ]
+  },
+  {
+    "video_id": "65072",
+    "video_path": "videos/65072.mp4",
+    "gloss": "angry",
+    "label": 67,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      141,
+      29,
+      509,
+      370
+    ]
+  },
+  {
+    "video_id": "02565",
+    "video_path": "videos/02565.mp4",
+    "gloss": "angry",
+    "label": 67,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      34,
+      5,
+      285,
+      240
+    ]
+  },
+  {
+    "video_id": "02566",
+    "video_path": "videos/02566.mp4",
+    "gloss": "angry",
+    "label": 67,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      596,
+      138,
+      1547,
+      1080
+    ]
+  },
+  {
+    "video_id": "02567",
+    "video_path": "videos/02567.mp4",
+    "gloss": "angry",
+    "label": 67,
+    "signer_id": 46,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      365,
+      6,
+      1334,
+      1080
+    ]
+  },
+  {
+    "video_id": "69211",
+    "video_path": "videos/69211.mp4",
+    "gloss": "animal",
+    "label": 68,
+    "signer_id": 116,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      314,
+      27,
+      982,
+      720
+    ]
+  },
+  {
+    "video_id": "02592",
+    "video_path": "videos/02592.mp4",
+    "gloss": "animal",
+    "label": 68,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      207,
+      35,
+      507,
+      400
+    ]
+  },
+  {
+    "video_id": "65073",
+    "video_path": "videos/65073.mp4",
+    "gloss": "animal",
+    "label": 68,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      164,
+      0,
+      502,
+      370
+    ]
+  },
+  {
+    "video_id": "02583",
+    "video_path": "videos/02583.mp4",
+    "gloss": "animal",
+    "label": 68,
+    "signer_id": 19,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      18,
+      3,
+      320,
+      180
+    ]
+  },
+  {
+    "video_id": "02584",
+    "video_path": "videos/02584.mp4",
+    "gloss": "animal",
+    "label": 68,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      60,
+      4,
+      273,
+      240
+    ]
+  },
+  {
+    "video_id": "02589",
+    "video_path": "videos/02589.mp4",
+    "gloss": "animal",
+    "label": 68,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      68,
+      8,
+      225,
+      192
+    ]
+  },
+  {
+    "video_id": "02609",
+    "video_path": "videos/02609.mp4",
+    "gloss": "anniversary",
+    "label": 69,
+    "signer_id": 28,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      35,
+      15,
+      289,
+      240
+    ]
+  },
+  {
+    "video_id": "02610",
+    "video_path": "videos/02610.mp4",
+    "gloss": "anniversary",
+    "label": 69,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      393,
+      60,
+      844,
+      720
+    ]
+  },
+  {
+    "video_id": "02611",
+    "video_path": "videos/02611.mp4",
+    "gloss": "anniversary",
+    "label": 69,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      57,
+      20,
+      597,
+      480
+    ]
+  },
+  {
+    "video_id": "02614",
+    "video_path": "videos/02614.mp4",
+    "gloss": "anniversary",
+    "label": 69,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      45,
+      9,
+      240,
+      192
+    ]
+  },
+  {
+    "video_id": "02616",
+    "video_path": "videos/02616.mp4",
+    "gloss": "anniversary",
+    "label": 69,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      168,
+      36,
+      526,
+      400
+    ]
+  },
+  {
+    "video_id": "65074",
+    "video_path": "videos/65074.mp4",
+    "gloss": "announce",
+    "label": 70,
+    "signer_id": 91,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      189,
+      29,
+      529,
+      370
+    ]
+  },
+  {
+    "video_id": "02620",
+    "video_path": "videos/02620.mp4",
+    "gloss": "announce",
+    "label": 70,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      33,
+      20,
+      628,
+      480
+    ]
+  },
+  {
+    "video_id": "02622",
+    "video_path": "videos/02622.mp4",
+    "gloss": "announce",
+    "label": 70,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      40,
+      5,
+      238,
+      192
+    ]
+  },
+  {
+    "video_id": "02625",
+    "video_path": "videos/02625.mp4",
+    "gloss": "announce",
+    "label": 70,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      199,
+      36,
+      518,
+      400
+    ]
+  },
+  {
+    "video_id": "02643",
+    "video_path": "videos/02643.mp4",
+    "gloss": "annoy",
+    "label": 71,
+    "signer_id": 37,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      59,
+      0,
+      232,
+      240
+    ]
+  },
+  {
+    "video_id": "02653",
+    "video_path": "videos/02653.mp4",
+    "gloss": "annoy",
+    "label": 71,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      240,
+      36,
+      490,
+      400
+    ]
+  },
+  {
+    "video_id": "02644",
+    "video_path": "videos/02644.mp4",
+    "gloss": "annoy",
+    "label": 71,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      743,
+      48,
+      1610,
+      1080
+    ]
+  },
+  {
+    "video_id": "02645",
+    "video_path": "videos/02645.mp4",
+    "gloss": "annoy",
+    "label": 71,
+    "signer_id": 34,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      113,
+      74,
+      506,
+      480
+    ]
+  },
+  {
+    "video_id": "02706",
+    "video_path": "videos/02706.mp4",
+    "gloss": "another",
+    "label": 72,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      214,
+      35,
+      481,
+      400
+    ]
+  },
+  {
+    "video_id": "02697",
+    "video_path": "videos/02697.mp4",
+    "gloss": "another",
+    "label": 72,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      76,
+      10,
+      263,
+      240
+    ]
+  },
+  {
+    "video_id": "02718",
+    "video_path": "videos/02718.mp4",
+    "gloss": "answer",
+    "label": 73,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      227,
+      35,
+      551,
+      400
+    ]
+  },
+  {
+    "video_id": "02710",
+    "video_path": "videos/02710.mp4",
+    "gloss": "answer",
+    "label": 73,
+    "signer_id": 19,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      78,
+      4,
+      230,
+      180
+    ]
+  },
+  {
+    "video_id": "02711",
+    "video_path": "videos/02711.mp4",
+    "gloss": "answer",
+    "label": 73,
+    "signer_id": 56,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      55,
+      0,
+      265,
+      240
+    ]
+  },
+  {
+    "video_id": "02712",
+    "video_path": "videos/02712.mp4",
+    "gloss": "answer",
+    "label": 73,
+    "signer_id": 32,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      852,
+      65,
+      1633,
+      1080
+    ]
+  },
+  {
+    "video_id": "02713",
+    "video_path": "videos/02713.mp4",
+    "gloss": "answer",
+    "label": 73,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      131,
+      19,
+      563,
+      480
+    ]
+  },
+  {
+    "video_id": "69212",
+    "video_path": "videos/69212.mp4",
+    "gloss": "any",
+    "label": 74,
+    "signer_id": 115,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      492,
+      68,
+      1371,
+      1080
+    ]
+  },
+  {
+    "video_id": "02826",
+    "video_path": "videos/02826.mp4",
+    "gloss": "any",
+    "label": 74,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      63,
+      17,
+      525,
+      480
+    ]
+  },
+  {
+    "video_id": "02828",
+    "video_path": "videos/02828.mp4",
+    "gloss": "any",
+    "label": 74,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      68,
+      19,
+      210,
+      192
+    ]
+  },
+  {
+    "video_id": "02833",
+    "video_path": "videos/02833.mp4",
+    "gloss": "any",
+    "label": 74,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      184,
+      36,
+      491,
+      400
+    ]
+  },
+  {
+    "video_id": "02852",
+    "video_path": "videos/02852.mp4",
+    "gloss": "anyway",
+    "label": 75,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      127,
+      23,
+      609,
+      480
+    ]
+  },
+  {
+    "video_id": "02854",
+    "video_path": "videos/02854.mp4",
+    "gloss": "anyway",
+    "label": 75,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      61,
+      11,
+      214,
+      192
+    ]
+  },
+  {
+    "video_id": "02856",
+    "video_path": "videos/02856.mp4",
+    "gloss": "anyway",
+    "label": 75,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      186,
+      48,
+      563,
+      400
+    ]
+  },
+  {
+    "video_id": "02864",
+    "video_path": "videos/02864.mp4",
+    "gloss": "apart",
+    "label": 76,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      50,
+      8,
+      268,
+      240
+    ]
+  },
+  {
+    "video_id": "02865",
+    "video_path": "videos/02865.mp4",
+    "gloss": "apart",
+    "label": 76,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      108,
+      22,
+      610,
+      480
+    ]
+  },
+  {
+    "video_id": "02870",
+    "video_path": "videos/02870.mp4",
+    "gloss": "apart",
+    "label": 76,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      174,
+      49,
+      560,
+      400
+    ]
+  },
+  {
+    "video_id": "02872",
+    "video_path": "videos/02872.mp4",
+    "gloss": "apartment",
+    "label": 77,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      52,
+      12,
+      235,
+      240
+    ]
+  },
+  {
+    "video_id": "02873",
+    "video_path": "videos/02873.mp4",
+    "gloss": "apartment",
+    "label": 77,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      207,
+      16,
+      520,
+      414
+    ]
+  },
+  {
+    "video_id": "02875",
+    "video_path": "videos/02875.mp4",
+    "gloss": "apartment",
+    "label": 77,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      108,
+      24,
+      547,
+      480
+    ]
+  },
+  {
+    "video_id": "02877",
+    "video_path": "videos/02877.mp4",
+    "gloss": "apartment",
+    "label": 77,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      66,
+      11,
+      213,
+      192
+    ]
+  },
+  {
+    "video_id": "02880",
+    "video_path": "videos/02880.mp4",
+    "gloss": "apartment",
+    "label": 77,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      159,
+      47,
+      567,
+      400
+    ]
+  },
+  {
+    "video_id": "02911",
+    "video_path": "videos/02911.mp4",
+    "gloss": "apostrophe",
+    "label": 78,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      656,
+      70,
+      1691,
+      1080
+    ]
+  },
+  {
+    "video_id": "02912",
+    "video_path": "videos/02912.mp4",
+    "gloss": "apostrophe",
+    "label": 78,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      709,
+      68,
+      1686,
+      1077
+    ]
+  },
+  {
+    "video_id": "02913",
+    "video_path": "videos/02913.mp4",
+    "gloss": "apostrophe",
+    "label": 78,
+    "signer_id": 21,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      160,
+      67,
+      522,
+      480
+    ]
+  },
+  {
+    "video_id": "02915",
+    "video_path": "videos/02915.mp4",
+    "gloss": "apostrophe",
+    "label": 78,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      61,
+      14,
+      217,
+      192
+    ]
+  },
+  {
+    "video_id": "65083",
+    "video_path": "videos/65083.mp4",
+    "gloss": "appear",
+    "label": 79,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      187,
+      7,
+      490,
+      370
+    ]
+  },
+  {
+    "video_id": "02952",
+    "video_path": "videos/02952.mp4",
+    "gloss": "appear",
+    "label": 79,
+    "signer_id": 35,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      36,
+      0,
+      283,
+      240
+    ]
+  },
+  {
+    "video_id": "02953",
+    "video_path": "videos/02953.mp4",
+    "gloss": "appear",
+    "label": 79,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      604,
+      63,
+      1488,
+      1080
+    ]
+  },
+  {
+    "video_id": "02954",
+    "video_path": "videos/02954.mp4",
+    "gloss": "appear",
+    "label": 79,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      136,
+      24,
+      604,
+      480
+    ]
+  },
+  {
+    "video_id": "02970",
+    "video_path": "videos/02970.mp4",
+    "gloss": "appetite",
+    "label": 80,
+    "signer_id": 0,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      53,
+      0,
+      260,
+      240
+    ]
+  },
+  {
+    "video_id": "02971",
+    "video_path": "videos/02971.mp4",
+    "gloss": "appetite",
+    "label": 80,
+    "signer_id": 21,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      157,
+      70,
+      622,
+      540
+    ]
+  },
+  {
+    "video_id": "02975",
+    "video_path": "videos/02975.mp4",
+    "gloss": "appetite",
+    "label": 80,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      194,
+      49,
+      541,
+      400
+    ]
+  },
+  {
+    "video_id": "03005",
+    "video_path": "videos/03005.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      64,
+      15,
+      229,
+      192
+    ]
+  },
+  {
+    "video_id": "03008",
+    "video_path": "videos/03008.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      158,
+      50,
+      541,
+      399
+    ]
+  },
+  {
+    "video_id": "65085",
+    "video_path": "videos/65085.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      207,
+      0,
+      520,
+      370
+    ]
+  },
+  {
+    "video_id": "65084",
+    "video_path": "videos/65084.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      119,
+      4,
+      486,
+      370
+    ]
+  },
+  {
+    "video_id": "03000",
+    "video_path": "videos/03000.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 28,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      41,
+      13,
+      259,
+      240
+    ]
+  },
+  {
+    "video_id": "03001",
+    "video_path": "videos/03001.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      350,
+      53,
+      815,
+      720
+    ]
+  },
+  {
+    "video_id": "03002",
+    "video_path": "videos/03002.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      212,
+      17,
+      526,
+      414
+    ]
+  },
+  {
+    "video_id": "03003",
+    "video_path": "videos/03003.mp4",
+    "gloss": "apple",
+    "label": 81,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      24,
+      13,
+      526,
+      480
+    ]
+  },
+  {
+    "video_id": "03062",
+    "video_path": "videos/03062.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      76,
+      15,
+      215,
+      192
+    ]
+  },
+  {
+    "video_id": "03063",
+    "video_path": "videos/03063.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      177,
+      50,
+      541,
+      400
+    ]
+  },
+  {
+    "video_id": "65087",
+    "video_path": "videos/65087.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 89,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      196,
+      40,
+      482,
+      370
+    ]
+  },
+  {
+    "video_id": "03055",
+    "video_path": "videos/03055.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 37,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      24,
+      0,
+      295,
+      240
+    ]
+  },
+  {
+    "video_id": "03056",
+    "video_path": "videos/03056.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      65,
+      15,
+      265,
+      240
+    ]
+  },
+  {
+    "video_id": "03057",
+    "video_path": "videos/03057.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      222,
+      18,
+      527,
+      414
+    ]
+  },
+  {
+    "video_id": "03059",
+    "video_path": "videos/03059.mp4",
+    "gloss": "appointment",
+    "label": 82,
+    "signer_id": 60,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      234,
+      13,
+      589,
+      360
+    ]
+  },
+  {
+    "video_id": "03069",
+    "video_path": "videos/03069.mp4",
+    "gloss": "appreciate",
+    "label": 83,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      523,
+      70,
+      1792,
+      1080
+    ]
+  },
+  {
+    "video_id": "03070",
+    "video_path": "videos/03070.mp4",
+    "gloss": "appreciate",
+    "label": 83,
+    "signer_id": 21,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      37,
+      6,
+      600,
+      480
+    ]
+  },
+  {
+    "video_id": "03073",
+    "video_path": "videos/03073.mp4",
+    "gloss": "appreciate",
+    "label": 83,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      73,
+      10,
+      239,
+      192
+    ]
+  },
+  {
+    "video_id": "03074",
+    "video_path": "videos/03074.mp4",
+    "gloss": "appreciate",
+    "label": 83,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      163,
+      46,
+      561,
+      400
+    ]
+  },
+  {
+    "video_id": "03090",
+    "video_path": "videos/03090.mp4",
+    "gloss": "approach",
+    "label": 84,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      48,
+      7,
+      284,
+      240
+    ]
+  },
+  {
+    "video_id": "03092",
+    "video_path": "videos/03092.mp4",
+    "gloss": "approach",
+    "label": 84,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      580,
+      34,
+      1707,
+      1080
+    ]
+  },
+  {
+    "video_id": "03093",
+    "video_path": "videos/03093.mp4",
+    "gloss": "approach",
+    "label": 84,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      85,
+      17,
+      533,
+      480
+    ]
+  },
+  {
+    "video_id": "03096",
+    "video_path": "videos/03096.mp4",
+    "gloss": "approach",
+    "label": 84,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      56,
+      11,
+      215,
+      192
+    ]
+  },
+  {
+    "video_id": "03101",
+    "video_path": "videos/03101.mp4",
+    "gloss": "appropriate",
+    "label": 85,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      69,
+      13,
+      262,
+      240
+    ]
+  },
+  {
+    "video_id": "03102",
+    "video_path": "videos/03102.mp4",
+    "gloss": "appropriate",
+    "label": 85,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      494,
+      45,
+      1599,
+      1079
+    ]
+  },
+  {
+    "video_id": "03103",
+    "video_path": "videos/03103.mp4",
+    "gloss": "appropriate",
+    "label": 85,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      141,
+      31,
+      510,
+      480
+    ]
+  },
+  {
+    "video_id": "03108",
+    "video_path": "videos/03108.mp4",
+    "gloss": "appropriate",
+    "label": 85,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      195,
+      49,
+      555,
+      400
+    ]
+  },
+  {
+    "video_id": "03122",
+    "video_path": "videos/03122.mp4",
+    "gloss": "approve",
+    "label": 86,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      145,
+      31,
+      515,
+      480
+    ]
+  },
+  {
+    "video_id": "03124",
+    "video_path": "videos/03124.mp4",
+    "gloss": "approve",
+    "label": 86,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      59,
+      15,
+      225,
+      192
+    ]
+  },
+  {
+    "video_id": "03131",
+    "video_path": "videos/03131.mp4",
+    "gloss": "approve",
+    "label": 86,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      181,
+      47,
+      572,
+      400
+    ]
+  },
+  {
+    "video_id": "03118",
+    "video_path": "videos/03118.mp4",
+    "gloss": "approve",
+    "label": 86,
+    "signer_id": 19,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      93,
+      11,
+      243,
+      180
+    ]
+  },
+  {
+    "video_id": "03119",
+    "video_path": "videos/03119.mp4",
+    "gloss": "approve",
+    "label": 86,
+    "signer_id": 26,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      56,
+      9,
+      275,
+      240
+    ]
+  },
+  {
+    "video_id": "03121",
+    "video_path": "videos/03121.mp4",
+    "gloss": "approve",
+    "label": 86,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      705,
+      115,
+      1596,
+      1080
+    ]
+  },
+  {
+    "video_id": "03155",
+    "video_path": "videos/03155.mp4",
+    "gloss": "april",
+    "label": 87,
+    "signer_id": 46,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      250,
+      16,
+      1249,
+      1075
+    ]
+  },
+  {
+    "video_id": "03156",
+    "video_path": "videos/03156.mp4",
+    "gloss": "april",
+    "label": 87,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      80,
+      30,
+      543,
+      480
+    ]
+  },
+  {
+    "video_id": "03161",
+    "video_path": "videos/03161.mp4",
+    "gloss": "april",
+    "label": 87,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      181,
+      48,
+      569,
+      400
+    ]
+  },
+  {
+    "video_id": "03202",
+    "video_path": "videos/03202.mp4",
+    "gloss": "archery",
+    "label": 88,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      500,
+      56,
+      1570,
+      1080
+    ]
+  },
+  {
+    "video_id": "03204",
+    "video_path": "videos/03204.mp4",
+    "gloss": "archery",
+    "label": 88,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      60,
+      19,
+      211,
+      192
+    ]
+  },
+  {
+    "video_id": "03207",
+    "video_path": "videos/03207.mp4",
+    "gloss": "archery",
+    "label": 88,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      162,
+      48,
+      562,
+      400
+    ]
+  },
+  {
+    "video_id": "03240",
+    "video_path": "videos/03240.mp4",
+    "gloss": "area",
+    "label": 89,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      74,
+      15,
+      239,
+      192
+    ]
+  },
+  {
+    "video_id": "03234",
+    "video_path": "videos/03234.mp4",
+    "gloss": "area",
+    "label": 89,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      66,
+      7,
+      253,
+      240
+    ]
+  },
+  {
+    "video_id": "03246",
+    "video_path": "videos/03246.mp4",
+    "gloss": "area",
+    "label": 89,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      175,
+      50,
+      534,
+      400
+    ]
+  },
+  {
+    "video_id": "03235",
+    "video_path": "videos/03235.mp4",
+    "gloss": "area",
+    "label": 89,
+    "signer_id": 32,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      756,
+      75,
+      1598,
+      1080
+    ]
+  },
+  {
+    "video_id": "03238",
+    "video_path": "videos/03238.mp4",
+    "gloss": "area",
+    "label": 89,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      86,
+      24,
+      524,
+      480
+    ]
+  },
+  {
+    "video_id": "03268",
+    "video_path": "videos/03268.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 36,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      156,
+      17,
+      579,
+      414
+    ]
+  },
+  {
+    "video_id": "03270",
+    "video_path": "videos/03270.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      359,
+      52,
+      905,
+      720
+    ]
+  },
+  {
+    "video_id": "03273",
+    "video_path": "videos/03273.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      463,
+      77,
+      1769,
+      1080
+    ]
+  },
+  {
+    "video_id": "03274",
+    "video_path": "videos/03274.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      127,
+      22,
+      612,
+      480
+    ]
+  },
+  {
+    "video_id": "65092",
+    "video_path": "videos/65092.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      174,
+      2,
+      486,
+      370
+    ]
+  },
+  {
+    "video_id": "03277",
+    "video_path": "videos/03277.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 10,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      60,
+      21,
+      233,
+      192
+    ]
+  },
+  {
+    "video_id": "03282",
+    "video_path": "videos/03282.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      175,
+      50,
+      553,
+      400
+    ]
+  },
+  {
+    "video_id": "03267",
+    "video_path": "videos/03267.mp4",
+    "gloss": "argue",
+    "label": 90,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      32,
+      3,
+      295,
+      240
+    ]
+  },
+  {
+    "video_id": "03315",
+    "video_path": "videos/03315.mp4",
+    "gloss": "arizona",
+    "label": 91,
+    "signer_id": 39,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      755,
+      54,
+      1698,
+      1077
+    ]
+  },
+  {
+    "video_id": "03316",
+    "video_path": "videos/03316.mp4",
+    "gloss": "arizona",
+    "label": 91,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      133,
+      19,
+      520,
+      480
+    ]
+  },
+  {
+    "video_id": "03318",
+    "video_path": "videos/03318.mp4",
+    "gloss": "arizona",
+    "label": 91,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      59,
+      11,
+      212,
+      192
+    ]
+  },
+  {
+    "video_id": "69215",
+    "video_path": "videos/69215.mp4",
+    "gloss": "arm",
+    "label": 92,
+    "signer_id": 118,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      365,
+      35,
+      908,
+      720
+    ]
+  },
+  {
+    "video_id": "03344",
+    "video_path": "videos/03344.mp4",
+    "gloss": "arm",
+    "label": 92,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      179,
+      48,
+      528,
+      400
+    ]
+  },
+  {
+    "video_id": "03337",
+    "video_path": "videos/03337.mp4",
+    "gloss": "arm",
+    "label": 92,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      63,
+      10,
+      237,
+      240
+    ]
+  },
+  {
+    "video_id": "03338",
+    "video_path": "videos/03338.mp4",
+    "gloss": "arm",
+    "label": 92,
+    "signer_id": 32,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      738,
+      73,
+      1592,
+      1080
+    ]
+  },
+  {
+    "video_id": "03339",
+    "video_path": "videos/03339.mp4",
+    "gloss": "arm",
+    "label": 92,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      114,
+      20,
+      552,
+      480
+    ]
+  },
+  {
+    "video_id": "03342",
+    "video_path": "videos/03342.mp4",
+    "gloss": "arm",
+    "label": 92,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      79,
+      16,
+      205,
+      192
+    ]
+  },
+  {
+    "video_id": "03368",
+    "video_path": "videos/03368.mp4",
+    "gloss": "army",
+    "label": 93,
+    "signer_id": 12,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      180,
+      68,
+      589,
+      400
+    ]
+  },
+  {
+    "video_id": "65095",
+    "video_path": "videos/65095.mp4",
+    "gloss": "army",
+    "label": 93,
+    "signer_id": 88,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      136,
+      0,
+      486,
+      370
+    ]
+  },
+  {
+    "video_id": "03361",
+    "video_path": "videos/03361.mp4",
+    "gloss": "army",
+    "label": 93,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      48,
+      9,
+      258,
+      240
+    ]
+  },
+  {
+    "video_id": "03364",
+    "video_path": "videos/03364.mp4",
+    "gloss": "army",
+    "label": 93,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      47,
+      16,
+      207,
+      192
+    ]
+  },
+  {
+    "video_id": "03389",
+    "video_path": "videos/03389.mp4",
+    "gloss": "around",
+    "label": 94,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      194,
+      35,
+      502,
+      400
+    ]
+  },
+  {
+    "video_id": "03377",
+    "video_path": "videos/03377.mp4",
+    "gloss": "around",
+    "label": 94,
+    "signer_id": 31,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      749,
+      55,
+      1842,
+      1080
+    ]
+  },
+  {
+    "video_id": "03378",
+    "video_path": "videos/03378.mp4",
+    "gloss": "around",
+    "label": 94,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      75,
+      19,
+      532,
+      480
+    ]
+  },
+  {
+    "video_id": "03430",
+    "video_path": "videos/03430.mp4",
+    "gloss": "arrest",
+    "label": 95,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      246,
+      35,
+      514,
+      400
+    ]
+  },
+  {
+    "video_id": "03417",
+    "video_path": "videos/03417.mp4",
+    "gloss": "arrest",
+    "label": 95,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      271,
+      68,
+      1609,
+      1080
+    ]
+  },
+  {
+    "video_id": "03418",
+    "video_path": "videos/03418.mp4",
+    "gloss": "arrest",
+    "label": 95,
+    "signer_id": 4,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      476,
+      60,
+      1524,
+      1080
+    ]
+  },
+  {
+    "video_id": "65096",
+    "video_path": "videos/65096.mp4",
+    "gloss": "arrive",
+    "label": 96,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      191,
+      22,
+      493,
+      370
+    ]
+  },
+  {
+    "video_id": "03437",
+    "video_path": "videos/03437.mp4",
+    "gloss": "arrive",
+    "label": 96,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      742,
+      61,
+      1532,
+      1080
+    ]
+  },
+  {
+    "video_id": "03438",
+    "video_path": "videos/03438.mp4",
+    "gloss": "arrive",
+    "label": 96,
+    "signer_id": 6,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      644,
+      54,
+      1505,
+      1080
+    ]
+  },
+  {
+    "video_id": "03439",
+    "video_path": "videos/03439.mp4",
+    "gloss": "arrive",
+    "label": 96,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      124,
+      18,
+      525,
+      480
+    ]
+  },
+  {
+    "video_id": "03457",
+    "video_path": "videos/03457.mp4",
+    "gloss": "arrogant",
+    "label": 97,
+    "signer_id": 41,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      190,
+      34,
+      555,
+      400
+    ]
+  },
+  {
+    "video_id": "03448",
+    "video_path": "videos/03448.mp4",
+    "gloss": "arrogant",
+    "label": 97,
+    "signer_id": 57,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      17,
+      0,
+      288,
+      240
+    ]
+  },
+  {
+    "video_id": "03449",
+    "video_path": "videos/03449.mp4",
+    "gloss": "arrogant",
+    "label": 97,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      302,
+      57,
+      912,
+      720
+    ]
+  },
+  {
+    "video_id": "65097",
+    "video_path": "videos/65097.mp4",
+    "gloss": "art",
+    "label": 98,
+    "signer_id": 90,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      174,
+      15,
+      461,
+      370
+    ]
+  },
+  {
+    "video_id": "03478",
+    "video_path": "videos/03478.mp4",
+    "gloss": "art",
+    "label": 98,
+    "signer_id": 2,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      64,
+      10,
+      255,
+      240
+    ]
+  },
+  {
+    "video_id": "03479",
+    "video_path": "videos/03479.mp4",
+    "gloss": "art",
+    "label": 98,
+    "signer_id": 38,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      431,
+      60,
+      819,
+      720
+    ]
+  },
+  {
+    "video_id": "03484",
+    "video_path": "videos/03484.mp4",
+    "gloss": "art",
+    "label": 98,
+    "signer_id": 11,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      71,
+      17,
+      216,
+      192
+    ]
+  },
+  {
+    "video_id": "03490",
+    "video_path": "videos/03490.mp4",
+    "gloss": "article",
+    "label": 99,
+    "signer_id": 43,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      80,
+      6,
+      270,
+      180
+    ]
+  },
+  {
+    "video_id": "03491",
+    "video_path": "videos/03491.mp4",
+    "gloss": "article",
+    "label": 99,
+    "signer_id": 13,
+    "frame_start": 1,
+    "frame_end": -1,
+    "fps": 25,
+    "bbox": [
+      123,
+      17,
+      597,
+      480
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+# ML Final — research environment
+# Python 3.10–3.11 strongly recommended (coremltools, mediapipe wheels lag).
+# See docs/toolchain.md for the version matrix and rationale.
+
+# ── core training ──────────────────────────────────
+torch==2.3.1
+torchvision==0.18.1
+numpy==1.26.4
+pyyaml==6.0.1
+
+# ── video / image IO ──────────────────────────────
+opencv-python==4.10.0.84
+pillow==10.4.0
+decord==0.6.0          # fast video decoding for WLASL clips
+
+# ── landmarks (Track 1) ───────────────────────────
+mediapipe==0.10.14
+
+# ── deployment (PyTorch → Core ML) ────────────────
+onnx==1.16.2
+onnxruntime==1.18.1
+coremltools==8.0       # 8.x supports iOS 18 ANE ops; pin major.
+
+# ── analysis ──────────────────────────────────────
+fvcore==0.1.5.post20221221    # FLOPs / params counting
+scikit-learn==1.5.1           # confusion matrices, bootstrap utilities
+scipy==1.13.1                 # paired statistical tests
+matplotlib==3.9.2             # Pareto + comparison plots
+pandas==2.2.2                 # results tables → markdown
+
+# ── experiment tracking ───────────────────────────
+wandb==0.17.6
+
+# ── developer ergonomics ──────────────────────────
+tqdm==4.66.5
+rich==13.7.1
+pytest==8.3.2

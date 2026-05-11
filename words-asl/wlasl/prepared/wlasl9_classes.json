@@ -1,0 +1,22 @@
+{
+  "gloss_to_label": {
+    "drink": 0,
+    "go": 1,
+    "help": 2,
+    "who": 3,
+    "yes": 4,
+    "no": 5,
+    "before": 6,
+    "walk": 7
+  },
+  "label_to_gloss": [
+    "drink",
+    "go",
+    "help",
+    "who",
+    "yes",
+    "no",
+    "before",
+    "walk"
+  ]
+}

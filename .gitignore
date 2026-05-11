@@ -1,0 +1,117 @@
+# ──────────────────────────────────────────────────────────────────────
+# OS / editor
+# ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ──────────────────────────────────────────────────────────────────────
+# Claude / agent tooling
+# ──────────────────────────────────────────────────────────────────────
+.claude/
+CLAUDE.md
+.claudeignore
+.aider*
+
+# ──────────────────────────────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.python-version
+
+# ──────────────────────────────────────────────────────────────────────
+# Datasets (raw + processed)
+# ──────────────────────────────────────────────────────────────────────
+letters-asl/dataset/
+letters-asl/data/
+words-asl/wlasl/videos
+words-asl/wlasl/WLASL_v0.3.json
+words-asl/wlasl/reference_videos/
+words-asl/landmarks_cache/
+
+*.npz
+*.joblib
+*.npy
+*.tfrecord
+
+# ──────────────────────────────────────────────────────────────────────
+# Trained models / checkpoints
+# ──────────────────────────────────────────────────────────────────────
+letters-asl/trained-models/
+letters-asl/notebooks/_backup_pre_rerun/
+words-asl/checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+
+# ──────────────────────────────────────────────────────────────────────
+# Experiment tracking
+# ──────────────────────────────────────────────────────────────────────
+wandb/
+runs/
+mlruns/
+*.log
+
+# ──────────────────────────────────────────────────────────────────────
+# iOS / Xcode / CocoaPods
+# ──────────────────────────────────────────────────────────────────────
+mobile-app/Pods/
+mobile-app/SignReader.xcodeproj/
+mobile-app/SignReader.xcworkspace/
+mobile-app/build/
+mobile-app/DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcuserstatedata
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Generated Info.plist (XcodeGen rewrites on every generate)
+mobile-app/SignReader/Info.plist
+
+# CoreML compiled / heavy bundled assets
+*.mlpackage/
+*.mlmodelc/
+mobile-app/SignReader/Resources/holistic_landmarker.task
+mobile-app/SignReader/Resources/Avatars/
+
+# ──────────────────────────────────────────────────────────────────────
+# Notebook / report artefacts
+# ──────────────────────────────────────────────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
+
+# ──────────────────────────────────────────────────────────────────────
+# Misc large binaries
+# ──────────────────────────────────────────────────────────────────────
+*.glb
+*.usdz
+*.mp4
+*.mov
+*.zip
+*.tar
+*.tar.gz

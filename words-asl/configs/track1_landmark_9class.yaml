@@ -1,0 +1,67 @@
+# Track 1 — 8 visually distinct ASL signs + an "idle" class.
+#
+# Classes (label order in wlasl/prepared/wlasl9idle_classes.json):
+#   0 drink, 1 go, 2 help, 3 who, 4 yes, 5 no, 6 before, 7 walk, 8 idle
+#
+# Differences from the 8-class run:
+#   - Replaces "computer" with "walk" to remove a C-handshape collision with
+#     "drink" that was confusing the demo.
+#   - Adds an "idle" class synthesized from the first frame of training clips
+#     (frozen across T=32) so the softmax has somewhere to put "no sign".
+
+track: track1
+dataset_name: wlasl9idle
+
+dataset:
+  name: landmark
+  train_args:
+    manifest_path: wlasl/prepared/wlasl9idle_train.json
+    landmarks_root: landmarks_cache
+    num_frames: 32
+    sampling: random
+    normalise: true
+    augment: true
+    seed: 0
+  val_args:
+    manifest_path: wlasl/prepared/wlasl9idle_val.json
+    landmarks_root: landmarks_cache
+    num_frames: 32
+    sampling: uniform
+    normalise: true
+    augment: false
+    seed: 0
+
+model:
+  name: landmark_classifier
+  args:
+    num_classes: 9
+    num_keypoints: 75
+    coord_dims: 3
+    d_model: 128
+    nhead: 4
+    num_layers: 2
+    dim_feedforward: 256
+    dropout: 0.2
+    max_frames: 64
+    pool: mean
+
+training:
+  device: auto
+  seed: 0
+  epochs: 120
+  batch_size: 16
+  num_workers: 2
+  lr: 3.0e-4
+  weight_decay: 1.0e-4
+  warmup_epochs: 6
+  grad_clip: 1.0
+  amp: true
+  out_dir: checkpoints
+  class_weights: auto
+
+logging:
+  project: ml-final-signreader
+  tags: [track1, wlasl9idle, transformer, augmented]
+
+distillation:
+  enabled: false

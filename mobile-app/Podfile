@@ -1,0 +1,33 @@
+# Podfile — MediaPipe Tasks for iOS lives on CocoaPods (no SPM package).
+# We adopted Pods specifically for MediaPipeTasksVision; SwiftData,
+# GLTFKit2, etc. continue via SPM through XcodeGen's `packages:` block.
+#
+# Workflow (every time project.yml changes):
+#   cd ios-app
+#   xcodegen generate          # regenerates SignReader.xcodeproj
+#   pod install                # regenerates SignReader.xcworkspace
+#   open SignReader.xcworkspace
+#
+# IMPORTANT: open the .xcworkspace, NOT the .xcodeproj, once Pods are
+# in play. CocoaPods injects build phases into the workspace.
+
+platform :ios, '17.0'
+
+target 'SignReader' do
+  use_frameworks!
+
+  # Hand + body + face landmark extraction. We use the holistic task
+  # (33 pose + 21 left hand + 21 right hand keypoints) to match the
+  # exact distribution the Track 1 9-class model was trained on.
+  pod 'MediaPipeTasksVision', '~> 0.10.14'
+end
+
+post_install do |installer|
+  # Match the host project's deployment target; CocoaPods otherwise
+  # defaults pods to iOS 12 and Xcode complains.
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '17.0'
+    end
+  end
+end

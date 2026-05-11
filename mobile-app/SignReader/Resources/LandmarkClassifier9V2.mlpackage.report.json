@@ -1,0 +1,30 @@
+{
+  "checkpoint": "research/checkpoints/track1-wlasl9idle_v2-s0/best.pt",
+  "out": "ios-app/SignReader/Resources/LandmarkClassifier9V2.mlpackage",
+  "precision": "fp16",
+  "via": "torchscript",
+  "input_shape": [
+    1,
+    32,
+    48,
+    3
+  ],
+  "ops": [
+    "add",
+    "cast",
+    "classify",
+    "const",
+    "expand_dims",
+    "gelu",
+    "layer_norm",
+    "linear",
+    "matmul",
+    "mul",
+    "reduce_mean",
+    "reshape",
+    "slice_by_index",
+    "softmax",
+    "squeeze",
+    "transpose"
+  ]
+}
